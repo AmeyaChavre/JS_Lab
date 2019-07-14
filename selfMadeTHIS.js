@@ -1,5 +1,4 @@
-var model = "XPS"; // this starts looking into global scope "undefined" is 
-// commented
+var model = "XPS"; // this starts looking into global scope 
 
 // self is used to preserve the scope to where it is declared
 var myPC = {
