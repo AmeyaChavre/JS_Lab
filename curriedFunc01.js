@@ -1,0 +1,13 @@
+// make a nice curry
+
+function getProduct(num1) 
+{
+  return function(num2)
+  {
+     
+        return num1*num2;
+      
+  }
+}
+
+getProduct(2)(3);
