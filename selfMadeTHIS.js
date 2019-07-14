@@ -1,3 +1,6 @@
+var model = "XPS"; // this starts looking into global scope "undefined" is 
+// commented
+
 // self is used to preserve the scope to where it is declared
 var myPC = {
 manufacturer : "Dell",
@@ -23,11 +26,19 @@ details : function(){
 
 myPC.details();
 
-/* Output:
+/* Output: (If line1 is commented )
 The model is : self.model >> Alienware
 The model is : this.model >> Alienware
 The model is : self.model >> Alienware
 The model is : this.model >> undefined
 The manufacturer is: this.model >> undefined
 The manufacturer is: self.model >> Alienware
+ Output: (If line1 is NOT commented )
+The model is : self.model >> Alienware
+The model is : this.model >> Alienware
+The model is : self.model >> Alienware
+The model is : this.model >> XPS
+The manufacturer is: this.model >> XPS
+The manufacturer is: self.model >> Alienware
+
 */
