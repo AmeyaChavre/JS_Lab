@@ -1,0 +1,11 @@
+const myJsonObj = {
+  "myString": "hello world",
+  "myNumber": 123.456,
+  "myNull": null,
+  "myBoolean": true,
+  "myArray": [10,20,"orange"],
+  "myObject": {
+    "name":"Sam",
+    "age":23
+  }
+};
