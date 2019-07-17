@@ -18,8 +18,16 @@ Atom.prototype.getNeutrons = function(){
   return this.neutrons;
 }
 
+Atom.prototype.getMassNumber = function(){
+	return this.protons+this.neutrons;
+}
+
 const getElement = new Atom(79,79,118);
 
 console.log("Electrons:" , getElement.getElectrons());
 console.log("Protons:" , getElement.getProtons());
 console.log("Neutrons:", getElement.getNeutrons());
+
+
+
+console.log("Mass Number: ",getElement.getMassNumber());
