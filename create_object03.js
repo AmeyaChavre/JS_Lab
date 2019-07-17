@@ -15,3 +15,8 @@ satellite.getISS = function()
 
 console.log(satellite.getISS());
 console.log(satellite.fuel);
+
+/* Output :
+4
+Solar
+*/ 
