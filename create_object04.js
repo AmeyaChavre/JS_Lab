@@ -31,3 +31,10 @@ console.log("Neutrons:", getElement.getNeutrons());
 
 
 console.log("Mass Number: ",getElement.getMassNumber());
+
+/* Output
+Electrons: 79
+Protons: 79
+Neutrons: 118
+Mass Number:  197
+*/
