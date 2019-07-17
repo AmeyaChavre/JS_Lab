@@ -14,3 +14,4 @@ satellite.getISS = function()
 
 
 console.log(satellite.getISS());
+console.log(satellite.fuel);
