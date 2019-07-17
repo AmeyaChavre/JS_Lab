@@ -38,3 +38,5 @@ Protons: 79
 Neutrons: 118
 Mass Number:  197
 */
+
+console.log("The Element is Gold (Au) , in greek : Aurum");
