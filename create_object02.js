@@ -13,3 +13,5 @@ getmaxSpeed: function()
 
 
 console.log(formulaOneObj.getmaxSpeed());
+
+console.log(formulaOneObj.maxRPM);
