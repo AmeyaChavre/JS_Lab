@@ -31,3 +31,7 @@ UserData {
   age: 54,
   gender: 'Male' }
 */
+
+UserData.prototype.getBioData = function(){
+  return 
+}
