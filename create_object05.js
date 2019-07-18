@@ -12,11 +12,11 @@ UserData.prototype.getFirstName() = function(){
   return this.firstname;
 }
 
-UserData.protype.getLastName() = function(){
+UserData.prototype.getLastName() = function(){
   return this.lastname;
 }
 
-UserData.protype.getAge() = function(){
+UserData.prototype.getAge() = function(){
   return this.age;
 }
 
