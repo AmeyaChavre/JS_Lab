@@ -8,6 +8,22 @@ function UserData(firstname,lastname,age,gender){
 }
 //console.log(UserData);
 
+UserData.prototype.getFirstName() = function(){
+  return this.firstname;
+}
+
+UserData.protype.getLastName() = function(){
+  return this.lastname;
+}
+
+UserData.protype.getAge() = function(){
+  return this.age;
+}
+
+UserData.prototype.getGender() = function(){
+  return this.gender;
+}
+
 const user1 = new UserData("Jimmy","Mcgill",51,"Male");
 
 // console.log(user1);
@@ -31,19 +47,3 @@ UserData {
   age: 54,
   gender: 'Male' }
 */
-
-UserData.prototype.getFirstName() = function(){
-  return this.firstname;
-}
-
-UserData.protype.getLastName() = function(){
-  return this.lastname;
-}
-
-UserData.protype.getAge() = function(){
-  return this.age;
-}
-
-UserData.prototype.getGender() = function(){
-  return this.gender;
-}
