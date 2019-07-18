@@ -8,19 +8,19 @@ function UserData(firstname,lastname,age,gender){
 }
 //console.log(UserData);
 
-UserData.prototype.getFirstName() = function(){
+UserData.prototype.getFirstName = function(){
   return this.firstname;
 }
 
-UserData.prototype.getLastName() = function(){
+UserData.prototype.getLastName = function(){
   return this.lastname;
 }
 
-UserData.prototype.getAge() = function(){
+UserData.prototype.getAge = function(){
   return this.age;
 }
 
-UserData.prototype.getGender() = function(){
+UserData.prototype.getGender = function(){
   return this.gender;
 }
 
