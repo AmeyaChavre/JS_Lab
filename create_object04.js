@@ -1,42 +1,37 @@
-function Atom(electrons,protons,neutrons)
-{
-this.electrons=electrons;
-this.protons=protons;
-this.neutrons=neutrons;
+// @Creating a contructor function for 
+
+function UserData(firstname,lastname,age,gender){
+  this.firstname=firstname;
+  this.lastname=lastname;
+  this.age=age;
+  this.gender=gender;
 }
+//console.log(UserData);
 
-// add a property
-Atom.prototype.getElectrons = function(){
-  return this.electrons;
-}
+const user1 = new UserData("Jimmy","Mcgill",51,"Male");
 
-Atom.prototype.getProtons = function(){
-  return this.protons;
-}
+// console.log(user1);
 
-Atom.prototype.getNeutrons = function(){
-  return this.neutrons;
-}
-
-Atom.prototype.getMassNumber = function(){
-	return this.protons+this.neutrons;
-}
-
-const getElement = new Atom(79,79,118);
-
-console.log("Electrons:" , getElement.getElectrons());
-console.log("Protons:" , getElement.getProtons());
-console.log("Neutrons:", getElement.getNeutrons());
-
-
-
-console.log("Mass Number: ",getElement.getMassNumber());
-
-/* Output
-Electrons: 79
-Protons: 79
-Neutrons: 118
-Mass Number:  197
+/*Output:
+UserData {
+  firstname: 'Jimmy',
+  lastname: 'Mcgill',
+  age: 51,
+  gender: 'Male' }
 */
 
-console.log("The Element is Gold (Au) , in greek : Aurum");
+const user2 = new UserData("Walter","White",54,"Male");
+
+//console.log(user2);
+
+/*Output:
+UserData {
+  firstname: 'Walter',
+  lastname: 'White',
+  age: 54,
+  gender: 'Male' }
+*/
+
+UserData.prototype.getBioData = function(){
+  
+}
