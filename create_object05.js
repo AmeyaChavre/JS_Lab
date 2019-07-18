@@ -10,7 +10,7 @@ function UserData(firstname,lastname,age,gender){
 
 const user1 = new UserData("Jimmy","Mcgill",51,"Male");
 
-console.log(user1);
+// console.log(user1);
 
 /*Output:
 UserData {
@@ -19,3 +19,7 @@ UserData {
   age: 51,
   gender: 'Male' }
 */
+
+const user2 = new UserData("Walter","White",54,"Male");
+
+console.log(user2);
