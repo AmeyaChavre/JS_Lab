@@ -23,3 +23,11 @@ UserData {
 const user2 = new UserData("Walter","White",54,"Male");
 
 console.log(user2);
+
+/*Output:
+UserData {
+  firstname: 'Walter',
+  lastname: 'White',
+  age: 54,
+  gender: 'Male' }
+*/
