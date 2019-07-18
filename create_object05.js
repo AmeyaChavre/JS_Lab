@@ -47,3 +47,9 @@ UserData {
   age: 54,
   gender: 'Male' }
 */
+console.log("Albuquerque Police Department Database:");
+console.log(`User1 BioData | Firstname : ${user1.getFirstName()} |
+ Lastname : ${user1.getLastName()} | Age : ${user1.getAge()} | Gender : ${user1.getGender()}`);
+
+ console.log(`User2 BioData | Firstname : ${user2.getFirstName()} |
+ Lastname : ${user2.getLastName()} | Age : ${user2.getAge()} | Gender : ${user2.getGender()}`);
