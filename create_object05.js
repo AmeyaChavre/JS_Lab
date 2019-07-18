@@ -55,7 +55,7 @@ console.log(`User1 BioData | Firstname : ${user1.getFirstName()} |
  Lastname : ${user2.getLastName()} | Age : ${user2.getAge()} | Gender : ${user2.getGender()}`);
 
  /*
-OUTPUT:
+OUTPUT::
 Albuquerque Police Department Database:
 User1 BioData | Firstname : Jimmy |
  Lastname : Mcgill | Age : 51 | Gender : Male
