@@ -32,6 +32,18 @@ UserData {
   gender: 'Male' }
 */
 
-UserData.prototype.getBioData = function(){
-  return 
+UserData.prototype.getFirstName() = function(){
+  return this.firstname;
+}
+
+UserData.protype.getLastName() = function(){
+  return this.lastname;
+}
+
+UserData.protype.getAge() = function(){
+  return this.age;
+}
+
+UserData.prototype.getGender() = function(){
+  return this.gender;
 }
