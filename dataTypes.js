@@ -31,3 +31,13 @@ true
 */
 
 console.log(Array.isArray({}));
+
+// if it returns true then its a array
+
+/*@Output
+object
+undefined
+object
+object
+true
+*/
