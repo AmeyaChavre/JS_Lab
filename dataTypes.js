@@ -46,4 +46,4 @@ false
 
 //@ A yet another method to determine array
 
-console.log([] instanceof(Array));
+console.log([] instanceof(Array)); // returns true
