@@ -1,28 +1,15 @@
-// @ Lets Bind()
-
-// bind is used to attach this context to a function
-
 this.distance = 10000;
-const spaceTravel = {
-distance : 4000,
-getDistance : function(){
-  return this.distance;
-}
+const roadTrip1 = {
+  distance: 3000,
+  getDistance: function(unit, caption) {
+    return this.distance + unit + caption;
+  }
 };
-
-const spaceTravel_1 = {
-distance : 8000,
-getDistance : function(){
-  return this.distance;
-}
+ 
+const roadTrip2 = {
+  distance: 5000
 };
-
-// console.log(spaceTravel);
-
-const tripToMoon = spaceTravel.getDistance().bind(spaceTravel_1);
-
-console.log(tripToMoon);
-
-
-
-
+ 
+const getTripDistance = roadTrip1.getDistance.bind(roadTrip2, 'km');
+ 
+getTripDistance(' in total');
