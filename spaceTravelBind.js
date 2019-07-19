@@ -2,7 +2,7 @@
 
 // bind is used to attach this context to a function
 
-
+this.distance = 10000;
 const spaceTravel = {
 distance : 4000,
 getDistance : function(){
