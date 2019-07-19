@@ -10,4 +10,9 @@ getDistance : function(){
 }
 };
 
-console.log(spaceTravel);
+//console.log(spaceTravel);
+
+
+
+
+
