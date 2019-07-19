@@ -10,8 +10,13 @@ getDistance : function(){
 }
 };
 
-//console.log(spaceTravel);
 
+
+// console.log(spaceTravel);
+
+const tripToMoon = spaceTravel.getDistance();
+
+console.log(tripToMoon);
 
 
 
