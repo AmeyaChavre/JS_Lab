@@ -29,3 +29,5 @@ object
 object
 true
 */
+
+console.log(Array.isArray({}));
