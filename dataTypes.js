@@ -16,3 +16,5 @@ object
 // How to determine if some datatype is array
 
 var someArray = ['a','e','i','o','u'];
+
+console.log(Array.isArray(someArray));
