@@ -48,3 +48,4 @@ false
 
 console.log([] instanceof(Array)); // returns true
 console.log(someArray instanceof(Array)); // returns true
+console.log(function(){return 0;} instanceof(Array)); // returns false
