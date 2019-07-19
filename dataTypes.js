@@ -21,3 +21,11 @@ console.log(Array.isArray(someArray));
 
 
 // if it return true then its a array
+
+/*@Output
+object
+undefined
+object
+object
+true
+*/
