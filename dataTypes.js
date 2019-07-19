@@ -18,3 +18,6 @@ object
 var someArray = ['a','e','i','o','u'];
 
 console.log(Array.isArray(someArray));
+
+
+// if it return true then its a array
