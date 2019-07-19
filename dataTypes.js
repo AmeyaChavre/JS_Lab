@@ -42,3 +42,8 @@ object
 true
 false
 */
+
+
+//@ A yet another method to determine array
+
+console.log([] instanceOf.Array);
