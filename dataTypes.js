@@ -47,3 +47,4 @@ false
 //@ A yet another method to determine array
 
 console.log([] instanceof(Array)); // returns true
+console.log(someArray instanceof(Array)); // returns true
