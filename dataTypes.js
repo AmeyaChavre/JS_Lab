@@ -12,3 +12,5 @@ undefined
 object
 object
 */
+
+// How to determine if some datatype is array
