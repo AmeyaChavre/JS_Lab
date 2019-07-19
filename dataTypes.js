@@ -32,7 +32,7 @@ true
 
 console.log(Array.isArray({}));
 
-// if it returns true then its a array
+// if it returns false then its a array
 
 /*@Output
 object
