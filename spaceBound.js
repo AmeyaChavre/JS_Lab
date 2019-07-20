@@ -6,7 +6,7 @@ this.distance = 10000;
 const spaceTravel = {
 distance : 4000,
 getDistance : function(unit){
-  return this.distance;
+  return this.distance + this.unit;
 }
 };
 
@@ -24,7 +24,7 @@ const tripToMoon = spaceTravel.getDistance.bind(spaceTravel);
 
 tripToMoon();  // returns 4000
 
-const tripToMilkyway = spaceTravel.getDistance.bind(interGalacticTravel); // returns 9999 , this context bound to interGalacticTravel
+const tripToMilkyway = spaceTravel.getDistance.bind(interGalacticTravel,"ly"); // returns 9999 , this context bound to interGalacticTravel
 
 
 
