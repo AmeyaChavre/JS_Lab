@@ -18,7 +18,7 @@ getDistance : function(){
 
 const tripToMoon = spaceTravel.getDistance.bind(spaceTravel);
 
-tripToMoon
+tripToMoon();
 
 
 
