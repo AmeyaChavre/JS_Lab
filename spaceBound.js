@@ -33,6 +33,8 @@ tripToMilkyway(" ly "," in total"); // returns '9999 ly in total'
 //tripToMilkyway(" ly ");
 //tripToMilkyway(" in total"); // returns '9999 in totalundefined'
 
+// bind() function is used to attach this context to a function
+
 
 
 
