@@ -5,7 +5,7 @@
 this.distance = 10000;
 const spaceTravel = {
 distance : 4000,
-getDistance : function(unit){
+getDistance : function(unit,caption){
   return this.distance + unit;
 }
 };
