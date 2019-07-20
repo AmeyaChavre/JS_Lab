@@ -11,7 +11,12 @@ getDistance : function(){
 };
 
 
-const tripToMoon = spaceTravel.getDistance();
+const tripToMoon = spaceTravel.getDistance;
+
+tripToMoon();
+
+
+
 
 
  
