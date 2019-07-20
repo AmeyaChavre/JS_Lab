@@ -10,6 +10,10 @@ getDistance : function(){
 }
 };
 
+const interGalacticTravel = {
+	distance : 9999
+}
+
 
 //const tripToMoon = spaceTravel.getDistance;
 
