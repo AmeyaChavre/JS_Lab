@@ -24,9 +24,9 @@ const tripToMoon = spaceTravel.getDistance.bind(spaceTravel);
 
 tripToMoon();  // returns 4000
 
-const tripToMilkyway = spaceTravel.getDistance.bind(interGalacticTravel); // return
+const tripToMilkyway = spaceTravel.getDistance.bind(interGalacticTravel); // returns 9999 , this context bound to interGalacticTravel
 
-//tripToMilkyway(); // throws error
+
 
 tripToMilkyway();
 
