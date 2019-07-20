@@ -28,7 +28,7 @@ const tripToMilkyway = spaceTravel.getDistance.bind(interGalacticTravel," ly", "
 
 
 
-tripToMilkyway();
+tripToMilkyway(); // return '9999 ly left to go'
 
 
 
