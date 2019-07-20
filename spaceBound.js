@@ -26,9 +26,9 @@ tripToMoon();  // returns 4000
 
 //const tripToMilkyway = spaceTravel.getDistance.bind(interGalacticTravel," ly", " left to go"); // returns 9999 , this context bound to interGalacticTravel
 
-const tripToMilkyway = spaceTravel.getDistance.bind(interGalacticTravel," ly");
+const tripToMilkyway = spaceTravel.getDistance.bind(interGalacticTravel);
 
-tripToMilkyway(" in total"); // returns '9999 ly in total'
+tripToMilkyway(" ly "," in total"); // returns '9999 ly in total'
 
 
 
