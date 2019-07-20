@@ -28,7 +28,7 @@ tripToMoon();  // returns 4000
 
 const tripToMilkyway = spaceTravel.getDistance.bind(interGalacticTravel," ly");
 
-tripToMilkyway(); // return '9999 ly left to go'
+tripToMilkyway(" left to go"); // return '9999 ly left to go'
 
 
 
