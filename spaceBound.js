@@ -30,7 +30,7 @@ const tripToMilkyway = spaceTravel.getDistance.bind(interGalacticTravel);
 
 // tripToMilkyway(" ly "," in total"); // returns '9999 ly in total'
 
-tripToMilkyway(" ly ");
+//tripToMilkyway(" ly ");
 //tripToMilkyway(" in total"); // returns '9999 in totalundefined'
 
 
