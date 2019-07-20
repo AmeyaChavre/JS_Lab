@@ -16,6 +16,9 @@ getDistance : function(){
 //tripToMoon(); // return 10000 and not 4000
 
 
+const tripToMoon = spaceTravel.getDistance.bind();
+
+
 
 
 
