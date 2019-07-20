@@ -26,7 +26,7 @@ tripToMoon();  // returns 4000
 
 const tripToMilkyway = interGalacticTravel.getDistance;
 
-console.log(tripToMilkyway);
+tripToMilkyway();
 
 
 
