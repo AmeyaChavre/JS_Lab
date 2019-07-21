@@ -32,5 +32,5 @@ thermalVision : "Y"
 
 cyborgThree = cyborgTwo;
 
-console.log(cyborgOne==cyborgTwo); 
-console.log(cyborgOne===cyborgTwo);
+console.log(cyborgThree==cyborgTwo); 
+console.log(cyborgThree===cyborgTwo);
