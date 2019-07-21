@@ -101,7 +101,7 @@ const arr1 = [1,2,3,4];
 const arr2 = [1,2,3,4];
 
 
-console.log(Array.isArray(arr1) , "| Length of arr1 : " , arr1.length ); // returns true
-console.log(Array.isArray(arr2) , "| Length of arr2 : " , arr2.length ); // returns true
+console.log("Is Array ? : | " , Array.isArray(arr1) , "| Length of arr1 : " , arr1.length ); // returns true
+console.log("Is Array ? : | " , Array.isArray(arr2) , "| Length of arr2 : " , arr2.length ); // returns true
 
 
