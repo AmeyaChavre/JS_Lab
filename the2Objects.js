@@ -73,3 +73,4 @@ false
 console.log("To String : " , JSON.stringify(cyborgOne));
 console.log("To String : " , JSON.stringify(cyborgTwo));
 console.log("To String : " , JSON.stringify(cyborgThree));
+console.log("To String : " , JSON.stringify(cyborgFour));
