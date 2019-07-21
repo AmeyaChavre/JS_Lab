@@ -53,3 +53,4 @@ console.log(cyborgFour==cyborgOne);
 console.log(cyborgFour===cyborgOne);
 
 console.log(JSON.stringify(cyborgFour)==JSON.stringify(cyborgOne));
+console.log(JSON.stringify(cyborgFour)===JSON.stringify(cyborgOne));
