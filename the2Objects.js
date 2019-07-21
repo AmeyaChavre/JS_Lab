@@ -109,5 +109,5 @@ console.log(arr1===arr2);
 
 
 console.log(JSON.stringify(arr1)==JSON.stringify(arr2));
-console.log(arr1===arr2);
+console.log(JSON.stringify(arr1)===JSON.stringify(arr2));
 
