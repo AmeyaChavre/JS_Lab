@@ -1,11 +1,11 @@
 const cyborgOne = {
 model : "T-800",
-thermalVision : "Yes"  
+thermalVision : "Y"  
 }
 
 const cyborgTwo = {
 model : "T-800",
-thermalVision : "Yes"  
+thermalVision : "Y"  
 }
 
 console.log(cyborgOne);
