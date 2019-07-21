@@ -50,3 +50,4 @@ thermalVision : "N"
 }
 
 console.log(cyborgFour==cyborgOne);
+console.log(cyborgFour===cyborgOne);
