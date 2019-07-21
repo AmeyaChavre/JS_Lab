@@ -24,3 +24,13 @@ Output:
 false
 false
 */
+
+const cyborgThree = {
+model : "T-800",
+thermalVision : "Y"  
+}
+
+cyborgThree = cyborgTwo;
+
+console.log(cyborgOne==cyborgTwo); 
+console.log(cyborgOne===cyborgTwo);
