@@ -104,4 +104,7 @@ const arr2 = [1,2,3,4];
 console.log("Is Array ? : | " , Array.isArray(arr1) , "| Length of arr1 : " , arr1.length ); // returns true
 console.log("Is Array ? : | " , Array.isArray(arr2) , "| Length of arr2 : " , arr2.length ); // returns true
 
+console.log(arr1==arr2);
+console.log(arr1===arr2);
+
 
