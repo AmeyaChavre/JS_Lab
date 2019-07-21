@@ -11,3 +11,6 @@ thermalVision : "Yes"
 console.log(cyborgOne);
 console.log(cyborgTwo);
 
+
+console.log(cyborgOne==cyborgTwo);
+console.log(cyborgOne===cyborgTwo);
