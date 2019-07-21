@@ -42,4 +42,4 @@ true
 
 
 console.log(JSON.stringify(cyborgOne)==JSON.stringify(cyborgTwo)); // returns true
-console.log(JSON.stringify(cyborgOne)===JSON.stringify(cyborgTwo));
+console.log(JSON.stringify(cyborgOne)===JSON.stringify(cyborgTwo)); // returns true
