@@ -54,3 +54,18 @@ console.log(cyborgFour===cyborgOne);
 
 console.log(JSON.stringify(cyborgFour)==JSON.stringify(cyborgOne));
 console.log(JSON.stringify(cyborgFour)===JSON.stringify(cyborgOne));
+
+/*@Output:
+{ model: 'T-800', thermalVision: 'Y' }
+{ model: 'T-800', thermalVision: 'Y' }
+false
+false
+true
+true
+true
+true
+false
+false
+false
+false
+*/
