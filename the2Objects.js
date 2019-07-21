@@ -43,3 +43,8 @@ true
 
 console.log(JSON.stringify(cyborgOne)==JSON.stringify(cyborgTwo)); // returns true
 console.log(JSON.stringify(cyborgOne)===JSON.stringify(cyborgTwo)); // returns true
+
+const cyborgFour = {
+model : "T-1000",
+thermalVision : "N" 
+}
