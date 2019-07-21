@@ -25,3 +25,8 @@ false
 false
 */
 
+
+const cyborgThree = cyborgOne;
+
+console.log(cyborgOne==cyborgThree); 
+console.log(cyborgOne===cyborgThree);
