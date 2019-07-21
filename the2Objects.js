@@ -101,6 +101,6 @@ const arr1 = [1,2,3,4];
 const arr2 = [1,2,3,4];
 
 
-console.log(typeof(isArray(arr1)));
-console.log(typeof(isArray(arr2)));
+console.log(Array.isArray(arr1));
+console.log(Array.isArray(arr2));
 
