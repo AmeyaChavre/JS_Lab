@@ -111,3 +111,27 @@ console.log(arr1===arr2);
 console.log(JSON.stringify(arr1)==JSON.stringify(arr2));
 console.log(JSON.stringify(arr1)===JSON.stringify(arr2));
 
+/*@Output:
+{ model: 'T-800', thermalVision: 'Y' }
+{ model: 'T-800', thermalVision: 'Y' }
+false
+false
+true
+true
+true
+true
+false
+false
+false
+false
+Stringified cyborgOne:  {"model":"T-800","thermalVision":"Y"}
+Stringified cyborgTwo:  {"model":"T-800","thermalVision":"Y"}
+Stringified cyborgThree:  {"model":"T-800","thermalVision":"Y"}
+Stringified cyborgFour:  {"model":"T-1000","thermalVision":"N"}
+Is Array ? : |  true | Length of arr1 :  4
+Is Array ? : |  true | Length of arr2 :  4
+false
+false
+true
+true
+*/
