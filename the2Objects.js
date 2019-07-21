@@ -25,12 +25,3 @@ false
 false
 */
 
-const cyborgThree = {
-model : "T-800",
-thermalVision : "Y"  
-}
-
-cyborgThree = cyborgTwo;
-
-console.log(cyborgThree==cyborgTwo); 
-console.log(cyborgThree===cyborgTwo);
