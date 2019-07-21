@@ -48,3 +48,5 @@ const cyborgFour = {
 model : "T-1000",
 thermalVision : "N" 
 }
+
+console.log(cyborgFour==cyborgOne);
