@@ -74,3 +74,22 @@ console.log("Stringified cyborgOne: " , JSON.stringify(cyborgOne));
 console.log("Stringified cyborgTwo: " , JSON.stringify(cyborgTwo));
 console.log("Stringified cyborgThree: " , JSON.stringify(cyborgThree));
 console.log("Stringified cyborgFour: " , JSON.stringify(cyborgFour));
+
+/*@Output:
+{ model: 'T-800', thermalVision: 'Y' }
+{ model: 'T-800', thermalVision: 'Y' }
+false
+false
+true
+true
+true
+true
+false
+false
+false
+false
+Stringified cyborgOne:  {"model":"T-800","thermalVision":"Y"}
+Stringified cyborgTwo:  {"model":"T-800","thermalVision":"Y"}
+Stringified cyborgThree:  {"model":"T-800","thermalVision":"Y"}
+Stringified cyborgFour:  {"model":"T-1000","thermalVision":"N"}
+*/
