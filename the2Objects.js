@@ -12,9 +12,11 @@ console.log(cyborgOne);
 console.log(cyborgTwo);
 
 
-console.log(cyborgOne==cyborgTwo);
+console.log(cyborgOne==cyborgTwo); 
 console.log(cyborgOne===cyborgTwo);
-
+// values are passed by reference therefore 
+// two objects refer to two different locations in 
+// the memory and are not equal
 /*
 Output:
 { model: 'T-800', thermalVision: 'Yes' }
