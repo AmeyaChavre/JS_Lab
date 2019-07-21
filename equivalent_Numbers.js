@@ -11,3 +11,21 @@ false
 900.9000000000001
 false
 */
+
+// @Method1
+
+console.log(Number(b.toFixed(1)));
+console.log(typeof(Number(b.toFixed(1))));
+
+// @Method2
+
+console.log(Number(b.toPrecision(4)));
+console.log(typeof(Number(b.toPrecision(4))));
+
+// @Method3
+
+console.log(b);
+
+console.log(((300.3 * 10)*3)/(10));
+
+console.log(typeof(((300.3 * 10)*3)/(10)));
