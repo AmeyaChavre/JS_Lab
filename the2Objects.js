@@ -8,3 +8,6 @@ model : "T-800",
 thermalVision : "Yes"  
 }
 
+console.log(cyborgOne);
+console.log(cyborgTwo);
+
