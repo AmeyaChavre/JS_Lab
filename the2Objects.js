@@ -30,3 +30,12 @@ const cyborgThree = cyborgOne;
 
 console.log(cyborgOne==cyborgThree); 
 console.log(cyborgOne===cyborgThree);
+
+/*@Output:
+{ model: 'T-800', thermalVision: 'Y' }
+{ model: 'T-800', thermalVision: 'Y' }
+false
+false
+true
+true
+*/
