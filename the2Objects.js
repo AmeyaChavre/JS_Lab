@@ -70,7 +70,7 @@ false
 false
 */
 
-console.log("To String : " , JSON.stringify(cyborgOne));
-console.log("To String : " , JSON.stringify(cyborgTwo));
-console.log("To String : " , JSON.stringify(cyborgThree));
-console.log("To String : " , JSON.stringify(cyborgFour));
+console.log("Stringified : " , JSON.stringify(cyborgOne));
+console.log("Stringified : " , JSON.stringify(cyborgTwo));
+console.log("Stringified : " , JSON.stringify(cyborgThree));
+console.log("Stringified : " , JSON.stringify(cyborgFour));
