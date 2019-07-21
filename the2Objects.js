@@ -14,3 +14,11 @@ console.log(cyborgTwo);
 
 console.log(cyborgOne==cyborgTwo);
 console.log(cyborgOne===cyborgTwo);
+
+/*
+Output:
+{ model: 'T-800', thermalVision: 'Yes' }
+{ model: 'T-800', thermalVision: 'Yes' }
+false
+false
+*/
