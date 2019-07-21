@@ -39,3 +39,7 @@ false
 true
 true
 */
+
+
+console.log(JSON.stringify(cyborgOne)==JSON.stringify(cyborgTwo)); 
+console.log(JSON.stringify(cyborgOne)===JSON.stringify(cyborgTwo));
