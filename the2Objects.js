@@ -93,3 +93,14 @@ Stringified cyborgTwo:  {"model":"T-800","thermalVision":"Y"}
 Stringified cyborgThree:  {"model":"T-800","thermalVision":"Y"}
 Stringified cyborgFour:  {"model":"T-1000","thermalVision":"N"}
 */
+
+// for arrays
+
+const arr1 = [1,2,3,4];
+
+const arr2 = [1,2,3,4];
+
+
+console.log(typeof(isArray(arr1)));
+console.log(typeof(isArray(arr2)));
+
