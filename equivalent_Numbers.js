@@ -29,3 +29,17 @@ console.log(b);
 console.log(((300.3 * 10)*3)/(10));
 
 console.log(typeof(((300.3 * 10)*3)/(10)));
+
+/*@Output:
+false
+900
+900.9000000000001
+false
+900.9
+number
+900.9
+number
+900.9000000000001
+900.9
+number
+*/
