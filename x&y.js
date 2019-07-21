@@ -13,3 +13,9 @@ console.log(x);
 y();
 
 console.log(x);
+
+/* @Output:
+[Function: x]
+value of x inside function y():  100
+10
+*/
