@@ -18,7 +18,7 @@ if(str===string)
 }
 else
 {
-	
+	console.log('');
 	return false;
 }
 
