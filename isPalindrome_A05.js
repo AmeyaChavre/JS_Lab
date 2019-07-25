@@ -13,7 +13,11 @@ console.log("Output String Length: ", str.length);
 
 if(str===string)
 {
-	
+	return true;
+}
+else
+{
+	return false;
 }
 
 
