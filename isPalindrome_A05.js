@@ -29,3 +29,13 @@ else
 
 //isPalindrome('stonecold');
 isPalindrome('racecar');
+
+/* @Output:
+
+Input String:  racecar
+Input String Length:  7
+Output String:  racecar
+Output String Length:  7
+is a palindrome!!
+
+*/
