@@ -11,6 +11,8 @@ for (var i = stringLength-1; i >= 0; i--)
 console.log("Output String: ",str);
 console.log("Output String Length: ", str.length);
 
+if(str===string)
+
 
 }
 
