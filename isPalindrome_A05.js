@@ -28,3 +28,4 @@ else
 
 
 //isPalindrome('stonecold');
+isPalindrome('racecar');
