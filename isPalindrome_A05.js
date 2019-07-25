@@ -8,7 +8,9 @@ for (var i = stringLength-1; i >= 0; i--)
 {
 	str+=string[i];
 }
-console.log(str);
+//console.log(str);
+
+
 }
 
 
