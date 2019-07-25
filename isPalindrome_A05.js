@@ -13,7 +13,7 @@ console.log("Output String Length: ", str.length);
 
 if(str===string)
 {
-	console.log();
+	console.log(is a palindrome!!);
 	return true;
 }
 else
