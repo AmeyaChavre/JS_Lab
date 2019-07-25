@@ -12,4 +12,4 @@ console.log(str);
 }
 
 
-isPalindrome('racecar');
+isPalindrome('stonecold');
