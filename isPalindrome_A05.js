@@ -18,7 +18,7 @@ if(str===string)
 }
 else
 {
-	console.log('');
+	console.log('is not a palindrome!!');
 	return false;
 }
 
