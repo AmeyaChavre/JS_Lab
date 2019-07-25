@@ -6,7 +6,7 @@ var stringLength = string.length;
 var str = '';
 for (var i = stringLength; i >= 0; i--)
 {
-	
+	str+=string[i];
 }
 
 }
