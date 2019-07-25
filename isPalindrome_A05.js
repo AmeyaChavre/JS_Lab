@@ -13,10 +13,12 @@ console.log("Output String Length: ", str.length);
 
 if(str===string)
 {
+	console.log();
 	return true;
 }
 else
 {
+	
 	return false;
 }
 
