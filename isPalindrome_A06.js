@@ -23,3 +23,4 @@ else
 }
 }
 //isPalindrome("Never odd or even")
+isPalindrome('stonecold');
