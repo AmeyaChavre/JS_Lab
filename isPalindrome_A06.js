@@ -22,3 +22,4 @@ else
   return false;
 }
 }
+//isPalindrome("Never odd or even")
