@@ -7,3 +7,4 @@ var str3 = str2.split(" ").join("");
 console.log("Processed Input String : ",str3);
 var str3_len = str3.length;
 console.log("Input String Length : ",str3_len);
+var str4=""
