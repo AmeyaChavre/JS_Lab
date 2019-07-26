@@ -3,3 +3,4 @@
 function isPalindrome(str1)
 {
 var str2 = str1.toLowerCase();
+var str3 = str2.split(" ").join("");
