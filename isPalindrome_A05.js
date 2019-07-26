@@ -1,3 +1,4 @@
+// Implement a function in JS to find palindromes
 function isPalindrome(string)
 {
 console.log("Input String: ",string);
