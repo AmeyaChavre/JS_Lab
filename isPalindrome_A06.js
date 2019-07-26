@@ -12,3 +12,8 @@ for (var i = str3_len-1; i >= 0; i--)
 {
   str4+=str3[i];
 }
+console.log("Processed Output String : ",str4);
+if (str4===str3)
+{
+  return true;
+}
