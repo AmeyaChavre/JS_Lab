@@ -22,5 +22,5 @@ else
   return false;
 }
 }
-//isPalindrome("Never odd or even")
+//isPalindrome("Never odd or even"
 isPalindrome('stonecold');
