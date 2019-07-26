@@ -8,3 +8,7 @@ console.log("Processed Input String : ",str3);
 var str3_len = str3.length;
 console.log("Input String Length : ",str3_len);
 var str4=""
+for (var i = str3_len-1; i >= 0; i--)
+{
+  str4+=str3[i];
+}
