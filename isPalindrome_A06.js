@@ -17,3 +17,8 @@ if (str4===str3)
 {
   return true;
 }
+else
+{
+  return false;
+}
+}
