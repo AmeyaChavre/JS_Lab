@@ -33,3 +33,13 @@ return newString;
 }
 
 caesarCipher('Aa Bb Cc Dd',2);
+
+/* @Output:
+
+TestCase1:
+TestCase2:
+TestCase3:
+
+
+
+*/
