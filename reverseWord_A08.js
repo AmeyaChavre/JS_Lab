@@ -1,20 +1,23 @@
 function reverseString(string)
 {
 
-var stringArr = string.split(' ');
-var lengthOfArray = stringArr.length;
-var reverseString = '';
-for (var i = 0; i < lengthOfArray; ++i)
-{
-  var wordInArray=stringArr[i];
-  for (var j = wordInArray.length-1; j>=0; --j)
-  { 
-    reverseString+=wordInArray[j]; 
+stringArr = string.split(" ");
+
+//console.log(stringArr);
+var reverseWordsArray = [];
+stringArr.forEach(word => {
+var reverseWord = '';
+for (var i = word.length-1; i >= 0; --i)
+  {
+    reverseWord+=word[i];
   }
+//console.log(reverseWord);
+reverseWordsArray.push(reverseWord);
 }
-return reverseString;
+)
+return reverseWordsArray.join(' ');
 }
+
+
 
 reverseString('Hello World');
-
-// @Output: olleH dlroW 
