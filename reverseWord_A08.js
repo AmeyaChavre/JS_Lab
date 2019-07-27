@@ -18,8 +18,9 @@ for (var i = 0; i < stringArr.length; ++i )
     newString+=string[j];
     }
   }
+  console.log(newString);
 }
-console.log(newString);
+
 }
 
 reverseString('Hello World');
