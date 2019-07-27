@@ -14,8 +14,18 @@ if (currentAlphabet === ' ')
 {
   newString += currentAlphabet;
 }
-if 
-
+var currentIndex = alphabetArr.indexOf(currentAlphabet);
+var newIndex = currentIndex + num;
+if (newIndex > 25) { newIndex = newIndex - 26; }
+if (newIndex < 0) { newIndex = newIndex + 26; }
+if (str[i] === str[i].toUpperCase())
+{
+newString += alphabetArr[newIndex].toUpperCase();
+}
+else
+{
+  
+}
 }
 
 }
