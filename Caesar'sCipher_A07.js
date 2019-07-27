@@ -2,6 +2,7 @@
 
 function caesarCipher(str,num)
 {
+num = num % 26;
 var lowerCaseString = str.toLowerCase();
 //console.log(lowerCaseString);
 var alphabetArr = lowerCaseString.split('');
