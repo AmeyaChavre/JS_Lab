@@ -5,7 +5,7 @@ function caesarCipher(str,num)
 num = num % 26;
 var lowerCaseString = str.toLowerCase();
 //console.log(lowerCaseString);
-var alphabetArr = lowerCaseString.split('');
+var alphabetArr = 'abcdefghijklmnopqrstuvwxyz'.split('');
 //console.log(alphabetArr);
 var newString = '';
 for (var i = 0; i < lowerCaseString.length; ++i)
@@ -31,4 +31,4 @@ newString += alphabetArr[newIndex];
 return newString;
 }
 
-caesarCipher('Aa Bb Cc Dd',1);
+caesarCipher('Aa Bb Cc Dd',2);
