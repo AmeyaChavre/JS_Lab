@@ -14,6 +14,7 @@ var currentAlphabet = lowerCaseString[i];
 if (currentAlphabet === ' ')
 {
   newString += currentAlphabet;
+  continue;
 }
 var currentIndex = alphabetArr.indexOf(currentAlphabet);
 var newIndex = currentIndex + num;
