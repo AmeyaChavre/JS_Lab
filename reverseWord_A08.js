@@ -21,3 +21,9 @@ return reverseWordsArray.join(' ');
 
 
 reverseString('Hello World');
+
+/* @Output:
+
+ 'olleH dlroW'
+
+*/
