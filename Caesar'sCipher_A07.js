@@ -32,13 +32,14 @@ newString += alphabetArr[newIndex];
 return newString;
 }
 
-caesarCipher('Aa Bb Cc Dd',2);
-
+caesarCipher('Aa Bb Cc Dd',2); // returns 'Cc Dd Ee Ff'
+//caesarCipher('Zookeeper',2);
+//caesarCipher('JavaScript',900);
 /* @Output:
 
-TestCase1:
-TestCase2:
-TestCase3:
+TestCase1:caesarCipher('Aa Bb Cc Dd',2);
+TestCase2:caesarCipher('Zookeeper',2);
+TestCase3:caesarCipher('JavaScript',900);
 
 
 
