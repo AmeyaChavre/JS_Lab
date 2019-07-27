@@ -1,26 +1,18 @@
 function reverseString(string)
 {
 
-stringArr = string.split(' ');
-//console.log(stringArr);
-var newString = '';
-for (var i = 0; i < stringArr.length; ++i )
+var stringArr = string.split(' ');
+var lengthOfArray = stringArr.length;
+var reverseString = '';
+for (var i = 0; i < lengthOfArray; ++i)
 {
-  for(var j = stringArr[i].length; j>=0 ; --j)
-  {
-    if(string[j]===' ')
-    {
-      newString+=string[j];
-      continue;
-    }
-  else
-    {
-    newString+=string[j];
-    }
+  var wordInArray=stringArr[i];
+  for (var j = wordInArray.length-1; j>=0; --j)
+  { 
+    reverseString+=wordInArray[j]; 
   }
-  console.log(newString);
 }
-
+return reverseString;
 }
 
 reverseString('Hello World');
