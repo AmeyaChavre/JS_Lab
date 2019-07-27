@@ -24,10 +24,10 @@ newString += alphabetArr[newIndex].toUpperCase();
 }
 else
 {
-  
+newString += alphabetArr[newIndex]; 
 }
 }
-
+return newString;
 }
 
 caesarCipher('Aa Bb Cc Dd',1);
