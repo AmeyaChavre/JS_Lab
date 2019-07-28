@@ -38,4 +38,18 @@ return median;
 
 function getMode(array){
 
+var modeObject = {}; // hash table
+
+// create modeObject
+
+array.forEach(num => {
+if(!modeObject[num]) modeObject=0;
+++modeObject[num]; 
+})
 }
+
+
+
+
+// calling the function
+meanMedianMode([9,10,23,10,23,9]);
