@@ -20,7 +20,7 @@ return mean;
 // Median
 
 function getMedian(array){
-array.sort(function(a,b) return {a-b};)
+array.sort(function(a,b) {return a-b});
 var median;
 
 if(array.length % 2 !== 0){
@@ -46,10 +46,22 @@ array.forEach(num => {
 if(!modeObject[num]) modeObject=0;
 ++modeObject[num]; 
 })
+
+
+var maxFrequency = 0;
+
+var modes = [];
+for (var num in modeObject){
+	if(modeObject[num] > maxFrequency){
+		modes = [num];
+		maxFrequency = modeObject[num];
+	}
+	else if(modeObject[num] === maxFrequency) modes.push(num);
 }
 
-
-
+if(modes.length === Object.keys(modeObject).length) modes = [];
+return modes;
+}
 
 // calling the function
 meanMedianMode([9,10,23,10,23,9]);
