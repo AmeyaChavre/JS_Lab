@@ -10,7 +10,7 @@ if (hashTable.indexOf(counterPart) !== -1){
 }	
 hashTable.push(currNum);
 }
-
+return pairs;
 }
 
 twoSum([1, 6, 4, 5, 3, 3], 7);
