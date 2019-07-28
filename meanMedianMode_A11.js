@@ -65,3 +65,10 @@ return modes;
 
 // calling the function
 meanMedianMode([9,10,23,10,23,9]);
+
+
+/* @Output:
+
+{ mean: 14, median: 10, mode: [] }
+
+*/
