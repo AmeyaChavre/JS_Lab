@@ -8,7 +8,7 @@ var counterPart = sum - currNum;
 if (hashTable.indexOf(counterPart) !== -1){
 	pairs.push([currNum,counterPart]);
 }	
-
+hashTable.push(currNum);
 }
 
 }
