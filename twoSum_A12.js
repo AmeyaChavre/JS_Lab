@@ -5,7 +5,11 @@ var hashTable = [];
 for (var i = 0; i < numArray.length; ++i)
 {
 var currNum = numArray[i];
-var counterPart = sum - currNum;	
+var counterPart = sum - currNum;
+if (hashTable.indexOf(counterPart) !== -1){
+	
+}	
+
 }
 
 }
