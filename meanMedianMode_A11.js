@@ -7,7 +7,8 @@ function meanMediaMode(array){
 }
 // Mean
 function getMean(array){
-
+ var sum = 0
+ array.forEach
 }
 // Median
 function getMedian(array){
