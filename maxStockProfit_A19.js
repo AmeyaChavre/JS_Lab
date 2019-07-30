@@ -23,3 +23,8 @@ function maxStockProfit (pricesArr) {
 }
  
 maxStockProfit([10, 18, 4, 5, 9, 6, 16, 12]);
+
+
+/* @Output:
+=> 12
+*/
