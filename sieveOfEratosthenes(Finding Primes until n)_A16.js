@@ -36,3 +36,12 @@ return results;
 sieveOfEratosthenes(20);
 
 // sieveOfEratosthenes(200);
+
+
+
+/* @Output:
+
+=> [ 2, 3, 5, 7, 11, 13, 17, 19 ]
+
+
+*/
