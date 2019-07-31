@@ -81,3 +81,9 @@ ll.addToTail('World');
 ll.search(100); // returns 100
 //ll.search('Hello'); // returns string Hello
 //ll.search(400); // returns null (not found)
+
+/*@ Output:
+
+=> 100
+
+*/
