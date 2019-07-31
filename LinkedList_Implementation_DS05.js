@@ -50,8 +50,11 @@ console.log(ll);
 console.log("Tail Node : ", ll.tail);
 console.log("Intermediate Node : ", ll.tail.prev);
 console.log("First Node : ", ll.tail.prev.prev);
-/* @Output:
 
+
+ll.addToHead(1000);
+console.log(ll);
+/* @Output:
 LinkedList { head: null, tail: null }
 LinkedList {
   head: Node { value: 100, next: null, prev: null },
@@ -98,6 +101,15 @@ First Node :  Node {
      next: Node { value: 300, next: null, prev: [Circular] },
      prev: [Circular] },
   prev: null }
-
-
+LinkedList {
+  head:
+   Node {
+     value: 1000,
+     next: Node { value: 100, next: [Node], prev: [Circular] },
+     prev: null },
+  tail:
+   Node {
+     value: 300,
+     next: null,
+     prev: Node { value: 200, next: [Circular], prev: [Node] } } }
      */
