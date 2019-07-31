@@ -16,7 +16,11 @@ this.prev = prev;
 
 LinkedList.prototype.addToHead = function(value){
 	// creating a new node
-var newNode = new Node(value, this.head, null); // some value; current head becomes this.head; since first node therefore null (no previous node)
+var newNode = new Node(value, this.head, null); 
+	// if nodes already exist
+if(this.head) this.head.prev = newNode;
+else this.tail = newNode;
+this.head = newNode;
 }
 
 
