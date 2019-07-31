@@ -1,0 +1,9 @@
+function LinkedList(){
+
+
+}
+
+
+function Node(){
+  
+}
