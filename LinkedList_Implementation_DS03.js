@@ -12,3 +12,10 @@ this.prev = prev;
 }
 
 
+
+var node1 = new Node(100, 'node2', null); 
+
+console.log(node1);
+
+
+// Node { value: 100, next: 'node2', prev: null }
