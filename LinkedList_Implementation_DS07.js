@@ -55,3 +55,32 @@ LinkedList.prototype.removeTail = function(){
 	else this.head = null;
 	return val;
 }
+
+var ll = new LinkedList();
+
+ll.addToHead('one');
+ll.addToHead('two');
+ll.addToHead('three');
+
+
+console.log(ll.removeTail()); // returns string one
+
+
+console.log(ll);
+
+/* @Output:
+
+one
+LinkedList {
+  head:
+   Node {
+     value: 'three',
+     next: Node { value: 'two', next: null, prev: [Circular] },
+     prev: null },
+  tail:
+   Node {
+     value: 'two',
+     next: null,
+     prev: Node { value: 'three', next: [Circular], prev: null } } }
+
+*/
