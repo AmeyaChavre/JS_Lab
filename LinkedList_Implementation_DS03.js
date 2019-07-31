@@ -12,17 +12,3 @@ this.prev = prev;
 }
 
 
-var LL = new LinkedList();
-
-console.log(LL);
-
-var N1 = new Node();
-
-console.log(N1);
-
-/* @Output:
-
-LinkedList { head: null, tail: null }
-Node { value: undefined, next: undefined, prev: undefined }
-
-*/
