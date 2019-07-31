@@ -13,3 +13,9 @@ this.prev = prev;
 
 
 // Add to the head method implementation
+
+LinkedList.prototype.addToHead = function(value){
+var newNode = new Node(value, this.head, null); // some value; current head becomes this.head; since first node therefore null (no previous node)
+}
+
+
