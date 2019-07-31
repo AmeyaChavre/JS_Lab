@@ -66,3 +66,18 @@ LinkedList.prototype.search = function(searchValue){
 	}
 	return null;
 }
+
+var ll = new LinkedList();
+
+ll.addToHead('one');
+ll.addToHead('Hello');
+ll.addToHead(100);
+ll.addToTail('two');
+ll.addToTail(200);
+ll.addToTail('World');
+
+//console.log(ll);
+// Test Cases for Search:
+ll.search(100); // returns 100
+//ll.search('Hello'); // returns string Hello
+//ll.search(400); // returns null (not found)
