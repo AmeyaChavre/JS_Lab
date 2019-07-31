@@ -1,6 +1,6 @@
 function LinkedList(){
-this.head = head;
-this.tail = tail;
+this.head = null;
+this.tail = null;
 
 }
 
