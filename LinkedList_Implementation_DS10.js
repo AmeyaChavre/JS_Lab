@@ -54,3 +54,5 @@ function binarySearch(array, key) {
     }
     return -1;
 }
+
+// Big O Notations and various runtime complexities under different circumstances
