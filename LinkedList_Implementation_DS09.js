@@ -93,3 +93,7 @@ ll.addToHead(20); // Index => 0
 
 console.log(ll.indexOf(20));
 
+/*@Output:
+[ 0, 2 ]
+*/
+
