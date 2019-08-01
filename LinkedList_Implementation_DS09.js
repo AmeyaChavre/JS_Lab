@@ -86,10 +86,10 @@ LinkedList.prototype.indexOf = function(value){
 var ll = new LinkedList();
 
 
-ll.addToHead(30);
-ll.addToHead(20);
-ll.addToHead(10);
-ll.addToHead(20);
+ll.addToHead(30); // Index => 3
+ll.addToHead(20); // Index => 2
+ll.addToHead(10); // Index => 1
+ll.addToHead(20); // Index => 0
 
 console.log(ll.indexOf(20));
 
