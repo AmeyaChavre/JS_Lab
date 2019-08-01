@@ -82,3 +82,8 @@ LinkedList.prototype.indexOf = function(value){
 	}
 	return indexes;
 }
+
+/* Time Complexity:
+
+Adding / Removing Head >> O(1) {constant}
+Adding / Removing Tail >> O(1) {constant}
