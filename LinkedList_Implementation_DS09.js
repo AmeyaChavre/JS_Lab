@@ -69,15 +69,24 @@ LinkedList.prototype.search = function(searchValue){
 
 // adding IndexOf method
 
-LinkedList.prototype.indexOf = function(indexValue){
-	var currentNode = this.head;
-	var countArray = [];
-	var count = 0;
+LinkedList.prototype.indexOf = function(searchValue){
+		var count = 0;
+    var currentNode = this.head;
 	while(currentNode){
-		if(currentNode.value === searchValue) countArray+=count++;
+		if(currentNode.value === searchValue) ++count;
 		currentNode = currentNode.next;
+    return count;
 	}
 	return null;
 }
 
 var ll = new LinkedList();
+
+
+ll.addToHead(30);
+ll.addToHead(20);
+ll.addToHead(10);
+ll.addToHead(20);
+
+console.log(ll.indexOf(20));
+
