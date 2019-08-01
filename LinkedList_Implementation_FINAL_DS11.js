@@ -88,6 +88,7 @@ LinkedList.prototype.indexOf = function(value){
 Adding / Removing Head >> O(1) {constant}
 Adding / Removing Tail >> O(1) {constant}
 Searching Linked List >> O(n)  {Linear}
-
-
+Linked Lists are efficient data structures especially when dealing with lower level programming languages that store data in on 
+physical disks / memory as they eliminate the need of contiguous memory allocations , i.e the data can be stored in multiple locations
+and they refer each other through next and prev pointers , resulting in efficient utilization of memory.
 */
