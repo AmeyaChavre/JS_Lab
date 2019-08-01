@@ -88,3 +88,6 @@ LinkedList.prototype.indexOf = function(value){
 Adding / Removing Head >> O(1) {constant}
 Adding / Removing Tail >> O(1) {constant}
 Searching Linked List >> O(n)  {Linear}
+
+
+*/
