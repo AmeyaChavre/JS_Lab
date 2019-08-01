@@ -75,10 +75,10 @@ LinkedList.prototype.indexOf = function(value){
 	var currentNode = this.head;
 	while(currentNode){
 		if(currentNode.value === value){
-			++currentIndex;
 			indexes.push(currentIndex);
 		}
 		currentNode = currentNode.next;
+		++currentIndex;
 	}
 	return indexes;
 }
