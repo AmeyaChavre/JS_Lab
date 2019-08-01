@@ -69,15 +69,18 @@ LinkedList.prototype.search = function(searchValue){
 
 // adding IndexOf method
 
-LinkedList.prototype.indexOf = function(searchValue){
-		var count = 0;
-    var currentNode = this.head;
+LinkedList.prototype.indexOf = function(value){
+	var indexes = [];
+	var currentIndex = 0;
+	var currentNode = this.head;
 	while(currentNode){
-		if(currentNode.value === searchValue) ++count;
+		if(currentNode.value === value){
+			++currentIndex;
+			indexes.push(currentIndex);
+		}
 		currentNode = currentNode.next;
-    return count;
 	}
-	return null;
+	return indexes;
 }
 
 var ll = new LinkedList();
