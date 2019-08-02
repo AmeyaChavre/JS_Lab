@@ -29,7 +29,7 @@ var bst1 = new BST(50); // root node
 bst1.insert(30); // child nodes
 bst1.insert(45); // child nodes
 bst1.insert(64); // child nodes
-bst1.insert(92);
+bst1.insert(92); // child nodes
 bst1.insert(81);
 bst1.insert(37);
 bst1.insert(46);
