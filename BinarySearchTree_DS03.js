@@ -7,5 +7,6 @@ this.left = null;
 this.right = null;
 }
 
+var bt1 = new BST(50);
 
-
+console.log(bt1);
