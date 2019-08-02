@@ -1,7 +1,10 @@
 /* Binary Search Tree Implementation */
 
-function BST(){
-
+// Binary Search Tree Constructor Function
+function BST(value){
+this.value = value;
+this.left = null;
+this.right = null;
 }
 
 
