@@ -34,5 +34,5 @@ bst1.insert(81); // child nodes
 bst1.insert(37); // child nodes
 bst1.insert(46); // child nodes
 bst1.insert(54); // child nodes
-bst1.insert(21);
+bst1.insert(21); // child nodes
 
