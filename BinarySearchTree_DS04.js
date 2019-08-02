@@ -27,7 +27,7 @@ var bst1 = new BST(50); // root node
 
 
 bst1.insert(30); // child nodes
-bst1.insert(45);
+bst1.insert(45); // child nodes
 bst1.insert(64);
 bst1.insert(92);
 bst1.insert(81);
