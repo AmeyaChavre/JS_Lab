@@ -37,6 +37,7 @@ bst1.insert(54); // child node
 bst1.insert(21); // child node
 
 console.log(bst1);
+console.log(bst1.left.right.left); // returns 37
 
 /* @Output:
 
@@ -52,5 +53,6 @@ BST {
      value: 64,
      left: BST { value: 54, left: null, right: null },
      right: BST { value: 92, left: [BST], right: null } } }
+BST { value: 37, left: null, right: null }
 
 */
