@@ -36,3 +36,4 @@ bst1.insert(46); // child node
 bst1.insert(54); // child node
 bst1.insert(21); // child node
 
+console.log(bst1);
