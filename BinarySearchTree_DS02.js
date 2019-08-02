@@ -16,4 +16,4 @@ function factorial(num){
 
 
 
-factorial(4); // Output: 4! = 4 * 3 * 2 * 1 = 2522dsdwswsssw
+factorial(4); // Output: 4! = 4 * 3 * 2 * 1 = 2522dsdwswsssws
