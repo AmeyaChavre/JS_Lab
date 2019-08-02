@@ -23,5 +23,16 @@ BST.prototype.insert = function(value){
 
 
 
-var bt1 = new BST(50);
+var bst1 = new BST(50); // root node
+
+
+bst1.insert(30); // child nodes
+bst1.insert(45);
+bst1.insert(64);
+bst1.insert(92);
+bst1.insert(81);
+bst1.insert(37);
+bst1.insert(46);
+bst1.insert(54);
+bst1.insert(21);
 
