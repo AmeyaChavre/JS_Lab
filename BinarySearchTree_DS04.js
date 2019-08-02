@@ -37,3 +37,20 @@ bst1.insert(54); // child node
 bst1.insert(21); // child node
 
 console.log(bst1);
+
+/* @Output:
+
+BST {
+  value: 50,
+  left:
+   BST {
+     value: 30,
+     left: BST { value: 21, left: null, right: null },
+     right: BST { value: 45, left: [BST], right: [BST] } },
+  right:
+   BST {
+     value: 64,
+     left: BST { value: 54, left: null, right: null },
+     right: BST { value: 92, left: [BST], right: null } } }
+
+*/
