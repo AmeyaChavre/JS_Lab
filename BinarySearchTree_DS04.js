@@ -32,7 +32,7 @@ bst1.insert(64); // child nodes
 bst1.insert(92); // child nodes
 bst1.insert(81); // child nodes
 bst1.insert(37); // child nodes
-bst1.insert(46);
+bst1.insert(46); // child nodes
 bst1.insert(54);
 bst1.insert(21);
 
