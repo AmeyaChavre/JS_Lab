@@ -46,7 +46,7 @@ var bst1 = new BST(50); // root node
 bst1.insert(30); // insert a value
 bst1.insert(70); // insert a value
 bst1.insert(100); // insert a value
-bst1.insert(); // insert a value
+bst1.insert(60); // insert a value
 bst1.insert(); // insert a value
 bst1.insert(); // insert a value
 bst1.insert(); // insert a value
