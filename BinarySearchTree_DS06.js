@@ -85,7 +85,7 @@ bst1.insert(10); // insert a value
 
 
 
-bst1.depthFirstTraversal();
+bst1.depthFirstTraversal(log);
 
 function log(value){
 	console.log(value);
