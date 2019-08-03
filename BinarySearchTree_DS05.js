@@ -48,3 +48,4 @@ bst1.insert();
 bst1.insert();
 bst1.insert();
 bst1.insert();
+bst1.insert();
