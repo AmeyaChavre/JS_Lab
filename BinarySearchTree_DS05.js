@@ -45,4 +45,4 @@ var bst1 = new BST(50); // root node
 
 bst1.insert();
 bst1.insert();
-
+bst1.insert();
