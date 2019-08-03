@@ -46,7 +46,7 @@ BST.prototype.contains = function(value){
 BST.prototype.depthFirstTraversal = function(iteratorFunc,order){
 		if(this.left) this.left.depthFirstTraversal(iteratorFunc,order);
 		iteratorFunc(this.value);
-		if(this.right) this.right.depthFirstTraversal(iteratorFunc);
+		if(this.right) this.right.depthFirstTraversal(iteratorFunc,order);
 }
 
 var bst1 = new BST(50); // root node
