@@ -82,3 +82,11 @@ bst1.insert(45); // insert a value
 bst1.insert(85); // insert a value
 bst1.insert(105); // insert a value
 bst1.insert(10); // insert a value
+
+
+
+bst1.depthFirstTraversal();
+
+function log(value){
+	console.log(value);
+}
