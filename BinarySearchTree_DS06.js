@@ -44,7 +44,9 @@ BST.prototype.contains = function(value){
 
 
 BST.prototype.depthFirstTraversal = function(iteratorFunc){
-	
+		if()
+		iteratorFunc(this.value);
+		if()
 }
 
 
