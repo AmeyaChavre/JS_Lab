@@ -29,7 +29,7 @@ BST.prototype.contains = function(value){
 	else if(value < this.value){			// left child node
 		if(!this.left) return false;		// the left child node does not exists
 		else{
-			return this.left.contains(value); // if the value is found => return values
+			return this.left.contains(value); // if the value is found => return value
 		}
 	}
 	else if(value > this.value)   			// right child node
