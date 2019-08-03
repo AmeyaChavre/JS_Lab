@@ -33,6 +33,9 @@ BST.prototype.contains = function(value){
 		}
 	}
 	else if(value > this.value)   			// right child node
-		
+		if() return false;
+		else{
+			
+		}
 	}
 }
