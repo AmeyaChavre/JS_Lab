@@ -49,7 +49,7 @@ bst1.insert(100); // insert a value
 bst1.insert(60); // insert a value
 bst1.insert(59); // insert a value
 bst1.insert(20); // insert a value
-bst1.insert(); // insert a value
+bst1.insert(35); // insert a value
 bst1.insert(); // insert a value
 bst1.insert(); // insert a value
 bst1.insert(); // insert a value
