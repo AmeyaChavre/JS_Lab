@@ -50,7 +50,7 @@ bst1.insert(); // insert a value
 bst1.insert(); // insert a value
 bst1.insert(); // insert a value
 bst1.insert(); // insert a value
-bst1.insert();
+bst1.insert(); // insert a value
 bst1.insert();
 bst1.insert();
 bst1.insert();
