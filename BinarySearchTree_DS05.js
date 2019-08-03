@@ -54,3 +54,6 @@ bst1.insert(45); // insert a value
 bst1.insert(85); // insert a value
 bst1.insert(105); // insert a value
 bst1.insert(10); // insert a value
+
+
+console.log(bst1);
