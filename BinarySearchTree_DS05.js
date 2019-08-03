@@ -79,3 +79,5 @@ BST {
 // Test cases for Contains Method
 
 bst1.contains(50); // returns true
+bst1.contains(45); // returns true
+bst1.contains(101);
