@@ -28,6 +28,9 @@ BST.prototype.contains = function(value){
 	}
 	else if(value < this.value){			// left child node
 		if(!this.left) return false;		// the left child node does not exists
+		else{
+			
+		}
 	}
 	else if(value > this.value)   			// right child node
 		
