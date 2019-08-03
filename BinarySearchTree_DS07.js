@@ -40,11 +40,11 @@ BST.prototype.contains = function(value){
 	}
 }
 
-// Implementing  a Method for Depth First Traversal for Binary Search Tree (IN ORDER TRAVERSAL) (i.e. Least to Greatest)
+// Implementing  a Method for Depth First Traversal for Binary Search Tree (IN ORDER /PRE ORDER / POST ORDER TRAVERSAL) 
 
 
-BST.prototype.depthFirstTraversal = function(iteratorFunc){
-		if(this.left) this.left.depthFirstTraversal(iteratorFunc);
+BST.prototype.depthFirstTraversal = function(iteratorFunc,order){
+		if(this.left) this.left.depthFirstTraversal(iteratorFunc,);
 		iteratorFunc(this.value);
 		if(this.right) this.right.depthFirstTraversal(iteratorFunc);
 }
