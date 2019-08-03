@@ -23,13 +23,13 @@ BST.prototype.insert = function(value){
 // Implementing Contains Functionality
 
 BST.prototype.contains = function(value){
-	if(value === this.value){
+	if(value === this.value){               // root node itself
 		return true;
 	}
-	else if(value < this.value){
+	else if(value < this.value){			// left child node
 		
 	}
-	else if(value > this.value)
+	else if(value > this.value)   			// right child node
 		
 	}
 }
