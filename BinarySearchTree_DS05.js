@@ -19,3 +19,17 @@ BST.prototype.insert = function(value){
 		else this.right.insert(value);
 	}	
 }
+
+// Implementing Contains Functionality
+
+BST.prototype.contains = function(value){
+	if(){
+		
+	}
+	else if(){
+		
+	}
+	else{
+		
+	}
+}
