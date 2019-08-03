@@ -49,26 +49,6 @@ BST.prototype.depthFirstTraversal = function(iteratorFunc){
 		if(this.right) this.right.depthFirstTraversal(iteratorFunc);
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 var bst1 = new BST(50); // root node
 
 bst1.insert(30); // insert a value
@@ -90,3 +70,23 @@ bst1.depthFirstTraversal(log);
 function log(value){
 	console.log(value);
 }
+
+
+
+/* @Output:
+
+10
+20
+30
+35
+45
+50
+59
+60
+70
+85
+100
+105
+
+
+*/
