@@ -43,6 +43,12 @@ BST.prototype.contains = function(value){
 // Implementing  a Method for Depth First Traversal for Binary Search Tree
 
 
+BST.prototype.depthFirstTraversal = function(iteratorFunc){
+	
+}
+
+
+
 
 
 
