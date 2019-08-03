@@ -44,7 +44,7 @@ BST.prototype.contains = function(value){
 var bst1 = new BST(50); // root node
 
 bst1.insert(30); // insert a value
-bst1.insert(); // insert a value
+bst1.insert(70); // insert a value
 bst1.insert(); // insert a value
 bst1.insert(); // insert a value
 bst1.insert(); // insert a value
