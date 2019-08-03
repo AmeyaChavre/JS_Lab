@@ -29,7 +29,7 @@ BST.prototype.contains = function(value){
 	else if(value < this.value){
 		
 	}
-	else{
+	else if(value > this.value)
 		
 	}
 }
