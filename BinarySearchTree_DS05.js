@@ -23,10 +23,10 @@ BST.prototype.insert = function(value){
 // Implementing Contains Functionality
 
 BST.prototype.contains = function(value){
-	if(){
-		
+	if(value === this.value){
+		return true;
 	}
-	else if(){
+	else if(value < this.value){
 		
 	}
 	else{
