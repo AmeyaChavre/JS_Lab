@@ -58,3 +58,20 @@ bst1.insert(10); // insert a value
 
 
 console.log(bst1);
+
+/* @Output:
+
+BST {
+  value: 50,
+  left:
+   BST {
+     value: 30,
+     left: BST { value: 20, left: [BST], right: null },
+     right: BST { value: 35, left: null, right: [BST] } },
+  right:
+   BST {
+     value: 70,
+     left: BST { value: 60, left: [BST], right: null },
+     right: BST { value: 100, left: [BST], right: [BST] } } }
+	 
+*/
