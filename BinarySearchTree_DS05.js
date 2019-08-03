@@ -75,3 +75,5 @@ BST {
      right: BST { value: 100, left: [BST], right: [BST] } } }
 	 
 */
+
+// Test cases for Contains Method
