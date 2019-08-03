@@ -83,3 +83,4 @@ bst1.contains(45); // returns true
 bst1.contains(101); // returns false
 bst1.contains(1000); // returns false
 bst1.contains(10); // returns true
+bst1.contains(1); // returns false
