@@ -32,13 +32,14 @@ BST.prototype.contains = function(value){
 			return this.left.contains(value); // if the value is found => return value
 		}
 	}
-	else if(value > this.value)   			// right child node
+	else if(value > this.value) {			// right child node
 		if(!this.right) return false;		// the right child node does not exists
 		else{
 			return this.right.contains(value); // if the value is found => return value
 		}
 	}
 }
+
 
 
 var bst1 = new BST(50); // root node
