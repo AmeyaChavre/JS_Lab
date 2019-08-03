@@ -78,4 +78,4 @@ BST {
 
 // Test cases for Contains Method
 
-bst1.contains(50);
+bst1.contains(50); // returns true
