@@ -91,6 +91,9 @@ function log(value){
 }
 */
 
+function log(node){
+	
+}
 bst1.breadthFirstTraversal(log);
 
 
