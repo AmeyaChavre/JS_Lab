@@ -99,3 +99,6 @@ bst1.insert(105); // insert a value
 bst1.insert(10); // insert a value
 
 // testing getMinVal() and getMaxVal() methods
+
+bst1.getMinVal();
+bst1.getMaxVal();
