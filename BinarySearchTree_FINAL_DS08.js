@@ -56,7 +56,7 @@ BST.prototype.depthFirstTraversal = function(iteratorFunc,order){
 
 
 BST.prototype.breadthFirstTraversal = function(iteratorFunc){
-	
+	var queue = []; // a fifo data structure
 }
 
 
