@@ -103,9 +103,11 @@ bst1.insert(10); // insert a value
 console.log("Min Value: " , bst1.getMinVal());
 console.log("Max Value: " , bst1.getMaxVal());
 
+
 /* @Output:
 
 Min Value:  10
 Max Value:  105
 
 */
+
