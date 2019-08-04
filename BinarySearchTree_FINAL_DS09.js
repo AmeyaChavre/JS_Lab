@@ -100,5 +100,5 @@ bst1.insert(10); // insert a value
 
 // testing getMinVal() and getMaxVal() methods
 
-bst1.getMinVal();
-bst1.getMaxVal();
+console.log("Min Value: " , bst1.getMinVal());
+console.log("Max Value: " , bst1.getMaxVal());
