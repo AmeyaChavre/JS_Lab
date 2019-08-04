@@ -65,30 +65,6 @@ BST.prototype.breadthFirstTraversal = function(iteratorFunc){
 	}
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 var bst1 = new BST(50); // root node
 
 bst1.insert(30); // insert a value
@@ -107,11 +83,13 @@ bst1.insert(10); // insert a value
 
 //bst1.depthFirstTraversal(log,'in-order');
 //bst1.depthFirstTraversal(log,'pre-order'); 
-bst1.depthFirstTraversal(log,'post-order');
+//bst1.depthFirstTraversal(log,'post-order');
 
 function log(value){
 	console.log(value);
 }
+
+
 
 
 
