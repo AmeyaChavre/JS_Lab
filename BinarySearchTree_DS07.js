@@ -48,6 +48,7 @@ BST.prototype.depthFirstTraversal = function(iteratorFunc,order){
 		if(this.left) this.left.depthFirstTraversal(iteratorFunc,order);
 		if(order === 'in-order') iteratorFunc(this.value);
 		if(this.right) this.right.depthFirstTraversal(iteratorFunc,order);
+		if(order === 'post-order') iteratorFunc(this.value);
 }
 
 var bst1 = new BST(50); // root node
@@ -66,8 +67,9 @@ bst1.insert(10); // insert a value
 
 
 
-// bst1.depthFirstTraversal(log,'in-order');
-bst1.depthFirstTraversal(log,'pre-order'); // returns nodes left to right
+//bst1.depthFirstTraversal(log,'in-order');
+//bst1.depthFirstTraversal(log,'pre-order'); 
+bst1.depthFirstTraversal(log,'post-order');
 
 function log(value){
 	console.log(value);
@@ -75,7 +77,8 @@ function log(value){
 
 
 
-/* @Output: (Pre-Order)
+/*
+@Output: (Pre-Order)
 
 50
 30
@@ -90,5 +93,34 @@ function log(value){
 85
 105
 
+@Output: (In-Order)
+
+10
+20
+30
+35
+45
+50
+59
+60
+70
+85
+100
+105
+
+@Output: (Post-Order)
+
+10
+20
+45
+35
+30
+59
+60
+85
+105
+100
+70
+50
 
 */
