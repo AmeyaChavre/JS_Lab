@@ -67,7 +67,7 @@ bst1.insert(10); // insert a value
 
 
 // bst1.depthFirstTraversal(log,'in-order');
-bst1.depthFirstTraversal(log,'pre-order');
+bst1.depthFirstTraversal(log,'pre-order'); // returns nodes left to right
 
 function log(value){
 	console.log(value);
@@ -75,19 +75,19 @@ function log(value){
 
 
 
-/* @Output:
+/* @Output: (Pre-Order)
 
-10
-20
+50
 30
+20
+10
 35
 45
-50
-59
-60
 70
-85
+60
+59
 100
+85
 105
 
 

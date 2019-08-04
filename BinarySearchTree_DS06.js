@@ -73,7 +73,7 @@ function log(value){
 
 
 
-/* @Output:
+/* @Output: (In-Order)
 
 10
 20
