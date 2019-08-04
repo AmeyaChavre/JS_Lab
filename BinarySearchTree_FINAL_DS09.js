@@ -65,6 +65,25 @@ BST.prototype.breadthFirstTraversal = function(iteratorFunc){
 	}
 }
 
+// Implementing a getminval() method
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 var bst1 = new BST(50); // root node
 
 bst1.insert(30); // insert a value
