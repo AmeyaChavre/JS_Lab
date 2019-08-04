@@ -65,6 +65,7 @@ BST.prototype.breadthFirstTraversal = function(iteratorFunc){
 	}
 }
 
+
 // Implementing a getMinVal() method
 
 BST.prototype.getMinVal = function(){
