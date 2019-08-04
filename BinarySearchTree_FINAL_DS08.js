@@ -91,6 +91,7 @@ function log(value){
 }
 */
 
+// A new log method for breadth first traversal , passing the entire node instead of just the value
 function log(node){
 	console.log(node.value);
 }
