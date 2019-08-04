@@ -113,4 +113,5 @@ Max Value:  105
 */
 
 // The search complexity of Linked List is O(n)
-// Whereas, the search complexity of Binary Search Tree is O(log n) which is better than Linked List
+// Whereas, the search complexity of Binary Search Tree is O(log n) which is better than Linked List 
+// however , the tree should be balanced 
