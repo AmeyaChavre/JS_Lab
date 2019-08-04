@@ -70,14 +70,14 @@ BST.prototype.breadthFirstTraversal = function(iteratorFunc){
 
 BST.prototype.getMinVal = function(){
 	if(this.left) return this.left.getMinVal(); // should return the furthest left node as it should be smallest
-	else return this.value; // returns the node since it itself is the furthest left child node
+	else return this.value; // returns the node since as it itself is the furthest left child node
 }
 
 // Implementing  a getMaxVal() method
 
 BST.prototype.getMaxVal = function(){
 	if(this.right) return this.right.getMaxVal(); // should return the furthest right node as it should be greatest
-	else return this.value; // returns the node since it itself is the furthest right child node
+	else return this.value; // returns the node since as it itself is the furthest right child node
 }
 
 
