@@ -104,6 +104,7 @@ console.log("Min Value: " , bst1.getMinVal());
 console.log("Max Value: " , bst1.getMaxVal());
 
 
+
 /* @Output:
 
 Min Value:  10
