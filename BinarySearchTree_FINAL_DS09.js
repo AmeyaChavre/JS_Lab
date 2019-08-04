@@ -82,6 +82,7 @@ BST.prototype.getMaxVal = function(){
 
 
 
+
 var bst1 = new BST(50); // root node
 
 bst1.insert(30); // insert a value
