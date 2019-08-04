@@ -61,7 +61,7 @@ BST.prototype.breadthFirstTraversal = function(iteratorFunc){
 		var treeNode = queue.shift(); // push to the back
 		iteratorFunc(treeNode);
 		if(treeNode.left)
-		if(this.treeNode.right)
+		if(treeNode.right)
 	}
 }
 
