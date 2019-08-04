@@ -98,7 +98,24 @@ function log(node){
 
 bst1.breadthFirstTraversal(log);
 
+/*
 
+@Output: (Breadth First Traversal)
+
+50
+30
+70
+20
+35
+60
+100
+10
+45
+59
+85
+105
+
+*/
 
 
 
