@@ -55,6 +55,10 @@ BST.prototype.depthFirstTraversal = function(iteratorFunc,order){
 // Implementing a Metod for Breadth First Traversal for Binary Search Tree
 
 
+BST.prototype.breadthFirstTraversal = function(iteratorFunc){
+	
+}
+
 
 
 
