@@ -85,9 +85,13 @@ bst1.insert(10); // insert a value
 //bst1.depthFirstTraversal(log,'pre-order'); 
 //bst1.depthFirstTraversal(log,'post-order');
 
+/*
 function log(value){
 	console.log(value);
 }
+*/
+
+bst1.breadthFirstTraversal(log);
 
 
 
