@@ -92,7 +92,7 @@ function log(value){
 */
 
 function log(node){
-	
+	console.log();
 }
 bst1.breadthFirstTraversal(log);
 
