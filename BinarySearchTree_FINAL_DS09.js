@@ -76,8 +76,8 @@ BST.prototype.getMinVal = function(){
 // Implementing  a getMaxVal() method
 
 BST.prototype.getMaxVal = function(){
-	if(this.right) return this.right.getMaxVal(); // should return the furthest left node as it should be smallest
-	else return this.right; // returns the node since it itself is the furthest left child node
+	if(this.right) return this.right.getMaxVal(); // should return the furthest right node as it should be greatest
+	else return this.right; // returns the node since it itself is the furthest right child node
 }
 
 
