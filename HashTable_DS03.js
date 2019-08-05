@@ -12,5 +12,25 @@ function HashNode(key,value,next){
 	this.next = next || null;
 }
 
+// Implementing a Hash Method
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 var myHT = new HashTable(30);
 console.log(myHT);
