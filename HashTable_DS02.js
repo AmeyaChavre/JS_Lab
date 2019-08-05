@@ -6,3 +6,4 @@
 
 'Hello World'.charCodeAt(0);
 'Hello World'.charCodeAt(0);
+'Hello World'.charCodeAt(0);
