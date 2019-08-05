@@ -49,4 +49,5 @@ myHT.insert('Elvis Presly','elvispresly@gmail.com');
 myHT.insert('Freddy Mercury','freddymercury@gmail.com');
 
 
+
 console.log(myHT.buckets);
