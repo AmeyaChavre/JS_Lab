@@ -44,3 +44,4 @@ HashTable.prototype.insert = function(key,value){
 var myHT = new HashTable(30);
 myHT.insert('Chuck Berry','chuckberry@gmail.com');
 myHT.insert('Stevie Wonder','steviewonder@gmail.com');
+myHT.insert('Elvis Presly','elvispresly@gmail.com');
