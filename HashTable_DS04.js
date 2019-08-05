@@ -26,7 +26,7 @@ HashTable.prototype.hash = function(key){
 	return bucket;
 }
 
-// Implementing Insert Method
+// Implementing Insert Method => takes a {key:value} pair => turn them into hash node , place them in the correct bucket
 
 
 
