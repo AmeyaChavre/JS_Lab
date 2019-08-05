@@ -3,7 +3,7 @@
 
 function HashTable(size){
 	this.buckets = Array(size);
-	this.numBucket = 
+	this.numBuckets = 
 }
 
 function HashNode(){
