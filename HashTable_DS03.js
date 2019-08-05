@@ -28,4 +28,4 @@ HashTable.prototype.hash = function(key){
 
 var myHT = new HashTable(30);
 console.log(myHT);
-console.log(myHT.hash('Jim Morrison'));
+console.log(myHT.hash('Jim Morrison')); // returns 7
