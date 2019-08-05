@@ -31,4 +31,4 @@ console.log('Hello World'.charCodeAt(9));
 */
 
 
-// Modulus Method
+// Modulus Operator - "%"
