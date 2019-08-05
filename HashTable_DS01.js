@@ -2,7 +2,7 @@
 
 
 function HashTable(size){
-	this.bucket = Array();
+	this.bucket = Array(size);
 }
 
 function HashNode(){
