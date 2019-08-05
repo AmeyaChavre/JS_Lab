@@ -1,10 +1,13 @@
 /* Hash Table - Implementation */
 
+// Hash Table Constructor Function
 
 function HashTable(size){
 	this.buckets = Array(size);
 	this.numBuckets = this.buckets.length; 
 }
+
+// Hash Node Constructor Function
 
 function HashNode(key,value,next){
 	this.key = key;
