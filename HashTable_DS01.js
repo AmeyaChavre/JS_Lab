@@ -14,4 +14,4 @@ function HashNode(key,value,next){
 
 var myHT = HashTable(30);
 
-console.
+console.log();
