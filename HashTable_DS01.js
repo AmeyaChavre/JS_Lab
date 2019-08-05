@@ -1,8 +1,8 @@
 /* Hash Table - Implementation */
 
 
-function HashTable(){
-	
+function HashTable(size){
+	this.bucket = Array();
 }
 
 function HashNode(){
