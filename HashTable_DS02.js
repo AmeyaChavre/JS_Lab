@@ -9,7 +9,7 @@
 'Hello World'.charCodeAt(2);
 'Hello World'.charCodeAt(3);
 'Hello World'.charCodeAt(4);
-'Hello World'.charCodeAt(0);
+'Hello World'.charCodeAt(5);
 'Hello World'.charCodeAt(0);
 'Hello World'.charCodeAt(0);
 'Hello World'.charCodeAt(0);
