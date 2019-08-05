@@ -26,5 +26,35 @@ HashTable.prototype.hash = function(key){
 	return bucket;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 var myHT = new HashTable(30);
 console.log(myHT);
