@@ -11,6 +11,6 @@
 'Hello World'.charCodeAt(4);
 'Hello World'.charCodeAt(5);
 'Hello World'.charCodeAt(6);
-'Hello World'.charCodeAt(0);
+'Hello World'.charCodeAt(7);
 'Hello World'.charCodeAt(0);
 'Hello World'.charCodeAt(0);
