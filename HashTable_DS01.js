@@ -12,4 +12,4 @@ function HashNode(key,value,next){
 	this.next = next || null;
 }
 
-var myHT = HashTable
+var myHT = HashTable();
