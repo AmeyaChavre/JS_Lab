@@ -18,7 +18,10 @@ function HashNode(key,value,next){
 // Implementing a Hash Method
 
 HashTable.prototype.hash = function(key){
-	
+	var total = 0;
+	for(var i = 0; i < key.length; ++i){
+		
+	}
 }
 
 
