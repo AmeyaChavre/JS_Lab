@@ -28,6 +28,10 @@ HashTable.prototype.hash = function(key){
 
 // Implementing Insert Method => takes a {key:value} pair => turn them into hash node , place them in the correct bucket
 
+HashTable.prototype.insert = function(key,value){
+	
+}
+
 
 
 
