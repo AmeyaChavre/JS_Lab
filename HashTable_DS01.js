@@ -9,4 +9,5 @@ function HashTable(size){
 function HashNode(key,value,next){
 	this.key = key;
 	this.value = value;
+	this.next = next;
 }
