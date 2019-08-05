@@ -6,6 +6,6 @@ function HashTable(size){
 	this.numBuckets = this.buckets.length; 
 }
 
-function HashNode(){
-	
+function HashNode(key,value,next){
+	this.key = key;
 }
