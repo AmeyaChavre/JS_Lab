@@ -14,3 +14,18 @@ console.log('Hello World'.charCodeAt(6));
 console.log('Hello World'.charCodeAt(7));
 console.log('Hello World'.charCodeAt(8));
 console.log('Hello World'.charCodeAt(9));
+
+/* @Output:
+
+72
+101
+108
+108
+111
+32
+87
+111
+114
+108
+
+*/
