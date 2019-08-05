@@ -6,8 +6,8 @@
 
 console.log('Hello World'.charCodeAt(0));
 console.log('Hello World'.charCodeAt(1));
-console.log('Hello World'.charCodeAt(2);
-console.log('Hello World'.charCodeAt(3);
+console.log('Hello World'.charCodeAt(2));
+console.log('Hello World'.charCodeAt(3));
 console.log('Hello World'.charCodeAt(4);
 console.log('Hello World'.charCodeAt(5);
 console.log('Hello World'.charCodeAt(6);
