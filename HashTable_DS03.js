@@ -20,7 +20,7 @@ function HashNode(key,value,next){
 HashTable.prototype.hash = function(key){
 	var total = 0;
 	for(var i = 0; i < key.length; ++i){
-		total += key.
+		total += key.charCodeAt(i);
 	}
 }
 
