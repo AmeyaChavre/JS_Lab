@@ -4,4 +4,4 @@
 // charCodeAt() Method => to be used in Hash Table Implementation
 
 
-'Hello World'
+'Hello World'.charCodeAt();
