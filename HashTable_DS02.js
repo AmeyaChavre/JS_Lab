@@ -4,13 +4,13 @@
 // charCodeAt() Method => to be used in Hash Table Implementation
 
 
-'Hello World'.charCodeAt(0);
-'Hello World'.charCodeAt(1);
-'Hello World'.charCodeAt(2);
-'Hello World'.charCodeAt(3);
-'Hello World'.charCodeAt(4);
-'Hello World'.charCodeAt(5);
-'Hello World'.charCodeAt(6);
-'Hello World'.charCodeAt(7);
-'Hello World'.charCodeAt(8);
-'Hello World'.charCodeAt(9);
+console.log('Hello World'.charCodeAt(0);
+console.log('Hello World'.charCodeAt(1);
+console.log('Hello World'.charCodeAt(2);
+console.log('Hello World'.charCodeAt(3);
+console.log('Hello World'.charCodeAt(4);
+console.log('Hello World'.charCodeAt(5);
+console.log('Hello World'.charCodeAt(6);
+console.log('Hello World'.charCodeAt(7);
+console.log('Hello World'.charCodeAt(8);
+console.log('Hello World'.charCodeAt(9);
