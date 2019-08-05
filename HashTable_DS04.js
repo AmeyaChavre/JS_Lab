@@ -30,7 +30,7 @@ HashTable.prototype.hash = function(key){
 
 HashTable.prototype.insert = function(key,value){
 	var index = this.hash(key); // to identify the bucket in which hash node will be placed
-	if(!this.bucket)
+	if(!this.buckets[index]) this.buckets[index] = 
 }
 
 
