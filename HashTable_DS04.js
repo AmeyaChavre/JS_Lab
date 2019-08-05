@@ -50,4 +50,5 @@ myHT.insert('Freddy Mercury','freddymercury@gmail.com');
 
 
 
+
 console.log(myHT.buckets);
