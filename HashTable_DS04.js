@@ -26,7 +26,7 @@ HashTable.prototype.hash = function(key){
 	return bucket;
 }
 
-
+// Implementing Insert Method
 
 
 
