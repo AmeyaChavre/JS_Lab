@@ -29,3 +29,6 @@ console.log('Hello World'.charCodeAt(9));
 108
 
 */
+
+
+// Modulus Method
