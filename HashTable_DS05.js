@@ -32,7 +32,7 @@ HashTable.prototype.hash = function(key){
 
 HashTable.prototype.insert = function(){
 	var index = this.hash(key);
-	if(){
+	if(!this.buckets[index]){
 		
 	}
 	else{
