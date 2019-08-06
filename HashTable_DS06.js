@@ -61,6 +61,7 @@ HashTable.prototype.get = function(key){
 		var currentNode = this.buckets[index];
 		while(currentNode){
 			if(currentNode.key === key) return currentNode.value;
+			currentNode = currentNode.next;
 		}
 	}
 }
