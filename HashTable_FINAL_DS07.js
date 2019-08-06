@@ -95,8 +95,38 @@ myHT.insert('Chuck Berry','chuckberry.1950@gmail.com');
 myHT.insert('Stevie Wonder','steviewonder.1960@gmail.com');
 myHT.insert('Elvis Presly','elvispresly.1970@gmail.com');
 myHT.insert('Freddy Mercury','freddymercury.1980@gmail.com');
-myHT.insert('Tom Waits','tomwaits@gmail.com'));
-myHT.insert('Johnny Cash','johnnycash@gmail.com'));
-myHT.insert('Jim Morrison','jimmorrison@gmail.com'));
-myHT.insert('John Lennon','johnlennon@gmail.com'));
+myHT.insert('Tom Waits','tomwaits@gmail.com');
+myHT.insert('Johnny Cash','johnnycash@gmail.com');
+myHT.insert('Jim Morrison','jimmorrison@gmail.com');
+myHT.insert('John Lennon','johnlennon@gmail.com');
 
+console.log(myHT.retrieveAll());
+
+/* @Output:
+
+[ HashNode {
+    key: 'Freddy Mercury',
+    value: 'freddymercury.1980@gmail.com',
+    next: null },
+  HashNode {
+    key: 'Jim Morrison',
+    value: 'jimmorrison@gmail.com',
+    next: null },
+  HashNode {
+    key: 'Elvis Presly',
+    value: 'elvispresly.1970@gmail.com',
+    next:
+     HashNode { key: 'Tom Waits', value: 'tomwaits@gmail.com', next: null } },
+  HashNode { key: 'Tom Waits', value: 'tomwaits@gmail.com', next: null },
+  HashNode {
+    key: 'Stevie Wonder',
+    value: 'steviewonder.1960@gmail.com',
+    next: null },
+  HashNode {
+    key: 'Chuck Berry',
+    value: 'chuckberry.1950@gmail.com',
+    next: null },
+  HashNode { key: 'Johnny Cash', value: 'johnnycash@gmail.com', next: null },
+  HashNode { key: 'John Lennon', value: 'johnlennon@gmail.com', next: null } ]
+  
+  */
