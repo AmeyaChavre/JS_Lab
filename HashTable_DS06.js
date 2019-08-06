@@ -54,8 +54,9 @@ HashTable.prototype.insert = function(key,value){
 
 // Implementing Get Method
 
-
-
+HashTable.prototype.get = function(key){
+	
+}
 
 
 
