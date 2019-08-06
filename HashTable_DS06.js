@@ -93,4 +93,12 @@ console.log('Singer1 Email Address: ',myHT.get('Jim Morrison'));
 console.log('Singer1 Email Address: ',myHT.get('John Lennon'));
 
 /*
+Singer1 Email Address:  chuckberry.1950@gmail.com
+Singer1 Email Address:  steviewonder.1960@gmail.com
+Singer1 Email Address:  elvispresly.1970@gmail.com
+Singer1 Email Address:  freddymercury.1980@gmail.com
+Singer1 Email Address:  null
+Singer1 Email Address:  null
+Singer1 Email Address:  null
+Singer1 Email Address:  null
 */
