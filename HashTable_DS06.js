@@ -85,3 +85,5 @@ myHT.insert('Freddy Mercury','freddymercury.1980@gmail.com');
 
 console.log();
 console.log();
+console.log();
+console.log();
