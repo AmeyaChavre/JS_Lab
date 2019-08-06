@@ -78,6 +78,7 @@ HashTable.prototype.retrieveAll = function(){
 			currentNode = currentNode.next;
 		}
 	}
+	return allNodes;
 		
 }
 
