@@ -83,9 +83,9 @@ myHT.insert('Freddy Mercury','freddymercury.1980@gmail.com');
 
 // Testing Get Method 
 
-console.log();
-console.log();
-console.log();
+console.log('Singer1 Email Address: ',);
+console.log('Singer1 Email Address: ',);
+console.log('Singer1 Email Address: ',);
 console.log();
 console.log();
 console.log();
