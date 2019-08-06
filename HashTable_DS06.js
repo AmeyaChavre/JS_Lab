@@ -54,7 +54,7 @@ HashTable.prototype.insert = function(key,value){
 
 // Implementing Get Method
 
-HashTable.prototype.get = function(key){
+HashTable.prototype.get = function(key){    // finds singers and returns their email 
 	var index = this.hash(key);
 	if(!this.buckets[index]) return null;
 	else{
@@ -63,6 +63,7 @@ HashTable.prototype.get = function(key){
 			if(currentNode.key === key) return currentNode.value;
 			currentNode = currentNode.next;
 		}
+	return null;                            // can't find singers returns null
 	}
 }
 
