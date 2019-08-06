@@ -86,7 +86,7 @@ myHT.insert('Freddy Mercury','freddymercury.1980@gmail.com');
 console.log('Singer1 Email Address: ',myHT.get('Chuck Berry'));
 console.log('Singer1 Email Address: ',myHT.get('Stevie Wonder'));
 console.log('Singer1 Email Address: ',myHT.get('Elvis Presly'));
-console.log('Singer1 Email Address: ',myHT.get());
+console.log('Singer1 Email Address: ',myHT.get('Freddy Mercury'));
 console.log('Singer1 Email Address: ',myHT.get());
 console.log('Singer1 Email Address: ',myHT.get());
 console.log('Singer1 Email Address: ',myHT.get());
