@@ -83,7 +83,7 @@ myHT.insert('Freddy Mercury','freddymercury.1980@gmail.com');
 
 // Testing Get Method 
 
-console.log('Singer1 Email Address: ',myHT.get());
+console.log('Singer1 Email Address: ',myHT.get('Chuck Berry'));
 console.log('Singer1 Email Address: ',myHT.get());
 console.log('Singer1 Email Address: ',myHT.get());
 console.log('Singer1 Email Address: ',myHT.get());
