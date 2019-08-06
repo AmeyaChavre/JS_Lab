@@ -90,4 +90,4 @@ console.log('Singer1 Email Address: ',myHT.get());
 console.log('Singer1 Email Address: ',myHT.get());
 console.log('Singer1 Email Address: ',myHT.get());
 console.log('Singer1 Email Address: ',myHT.get());
-console.log('Singer1 Email Address: ',);
+console.log('Singer1 Email Address: ',myHT.get());
