@@ -41,6 +41,7 @@ HashTable.prototype.insert = function(key,value){
 		while(currentNode.next){				
 			if(currentNode.next.key === key){			// identifying correct node 
 				currentNode.next.value = value; // setting the value 
+				return;
 			}
 			
 		}
