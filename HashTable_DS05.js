@@ -43,7 +43,7 @@ HashTable.prototype.insert = function(key,value){
 				currentNode.next.value = value; // setting the value 
 				return;
 			}
-			
+			currentNode = currentNode.next;
 		}
 		
 	}
