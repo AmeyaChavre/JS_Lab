@@ -32,7 +32,7 @@ HashTable.prototype.hash = function(key){
 
 HashTable.prototype.insert = function(){
 	if(){
-		
+		var index = this.hash(key);
 	}
 	else{
 		
