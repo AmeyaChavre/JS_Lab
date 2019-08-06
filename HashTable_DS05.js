@@ -70,5 +70,26 @@ console.log(myHT.buckets);
 
 /* @Output: (HashTable with updated emails)
 
+[ <1 empty item>,
+  HashNode {
+    key: 'Freddy Mercury',
+    value: 'freddymercury.1980@gmail.com',
+    next: null },
+  <14 empty items>,
+  HashNode {
+    key: 'Elvis Presly',
+    value: 'elvispresly.1970@gmail.com',
+    next: null },
+  <2 empty items>,
+  HashNode {
+    key: 'Stevie Wonder',
+    value: 'steviewonder.1960@gmail.com',
+    next: null },
+  <2 empty items>,
+  HashNode {
+    key: 'Chuck Berry',
+    value: 'chuckberry.1950@gmail.com',
+    next: null },
+  <7 empty items> ]
 
 */
