@@ -60,10 +60,10 @@ myHT.insert('Freddy Mercury','freddymercury@gmail.com');
 
 // Updating Emails
 
-myHT.insert('Chuck Berry','chuckberry@gmail.com');
-myHT.insert('Stevie Wonder','steviewonder@gmail.com');
-myHT.insert('Elvis Presly','elvispresly@gmail.com');
-myHT.insert('Freddy Mercury','freddymercury@gmail.com');
+myHT.insert('Chuck Berry','chuckberry.1950@gmail.com');
+myHT.insert('Stevie Wonder','steviewonder.1960@gmail.com');
+myHT.insert('Elvis Presly','elvispresly.1970@gmail.com');
+myHT.insert('Freddy Mercury','freddymercury.1980@gmail.com');
 
 
 console.log(myHT.buckets);
