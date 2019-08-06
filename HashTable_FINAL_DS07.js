@@ -108,3 +108,7 @@ myHT.insert('Chuck Berry','chuckberry.1950@gmail.com');
 myHT.insert('Stevie Wonder','steviewonder.1960@gmail.com');
 myHT.insert('Elvis Presly','elvispresly.1970@gmail.com');
 myHT.insert('Freddy Mercury','freddymercury.1980@gmail.com');
+myHT.insert('Tom Waits'));
+myHT.insert('Johnny Cash'));
+myHT.insert('Jim Morrison'));
+myHT.insert('John Lennon'));
