@@ -69,6 +69,10 @@ HashTable.prototype.get = function(key){    // finds singers and returns their e
 
 // Implementing a retrieveAll() Method
 
+HashTable.prototype.retrieveAll(){
+	
+}
+
 
 
 
