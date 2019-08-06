@@ -69,7 +69,7 @@ HashTable.prototype.get = function(key){    // finds singers and returns their e
 
 // Implementing a retrieveAll() Method
 
-HashTable.prototype.retrieveAll(){
+HashTable.prototype.retrieveAll = function(){
 	var allNodes = [];
 	for (var i = 0; i < this.numBuckets; ++i){
 		var currentNode = this.buckets[i];
