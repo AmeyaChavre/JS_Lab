@@ -84,23 +84,23 @@ myHT.insert('Freddy Mercury','freddymercury.1980@gmail.com');
 // Testing Get Method 
 
 console.log('Singer1 Email Address: ',myHT.get('Chuck Berry'));
-console.log('Singer1 Email Address: ',myHT.get('Stevie Wonder'));
-console.log('Singer1 Email Address: ',myHT.get('Elvis Presly'));
-console.log('Singer1 Email Address: ',myHT.get('Freddy Mercury'));
-console.log('Singer1 Email Address: ',myHT.get('Tom Waits'));
-console.log('Singer1 Email Address: ',myHT.get('Johnny Cash'));
-console.log('Singer1 Email Address: ',myHT.get('Jim Morrison'));
-console.log('Singer1 Email Address: ',myHT.get('John Lennon'));
+console.log('Singer2 Email Address: ',myHT.get('Stevie Wonder'));
+console.log('Singer3 Email Address: ',myHT.get('Elvis Presly'));
+console.log('Singer4 Email Address: ',myHT.get('Freddy Mercury'));
+console.log('Singer5 Email Address: ',myHT.get('Tom Waits'));
+console.log('Singer6 Email Address: ',myHT.get('Johnny Cash'));
+console.log('Singer7 Email Address: ',myHT.get('Jim Morrison'));
+console.log('Singer8 Email Address: ',myHT.get('John Lennon'));
 
 /* @Output:
 
 Singer1 Email Address:  chuckberry.1950@gmail.com
-Singer1 Email Address:  steviewonder.1960@gmail.com
-Singer1 Email Address:  elvispresly.1970@gmail.com
-Singer1 Email Address:  freddymercury.1980@gmail.com
-Singer1 Email Address:  null
-Singer1 Email Address:  null
-Singer1 Email Address:  null
-Singer1 Email Address:  null
+Singer2 Email Address:  steviewonder.1960@gmail.com
+Singer3 Email Address:  elvispresly.1970@gmail.com
+Singer4 Email Address:  freddymercury.1980@gmail.com
+Singer5 Email Address:  null
+Singer6 Email Address:  null
+Singer7 Email Address:  null
+Singer8 Email Address:  null
 
 */
