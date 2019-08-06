@@ -90,4 +90,4 @@ console.log('Singer1 Email Address: ',myHT.get('Freddy Mercury'));
 console.log('Singer1 Email Address: ',myHT.get('Tom Waits'));
 console.log('Singer1 Email Address: ',myHT.get('Johnny Cash'));
 console.log('Singer1 Email Address: ',myHT.get('Jim Morrison'));
-console.log('Singer1 Email Address: ',myHT.get());
+console.log('Singer1 Email Address: ',myHT.get('John Lennon'));
