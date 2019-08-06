@@ -36,6 +36,9 @@ HashTable.prototype.insert = function(key,value){
 	if(!this.buckets[index]){
 		this.buckets[index] = new HashNode(key,value);
 	}
+	else if(){
+		
+	}
 	else{
 		var currentNode = this.buckets[index];
 		while(currentNode.next){				
