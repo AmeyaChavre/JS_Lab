@@ -52,7 +52,7 @@ HashTable.prototype.insert = function(key,value){
 	}
 }
 
-
+// Implementing Get Method
 
 
 
