@@ -31,7 +31,12 @@ HashTable.prototype.hash = function(key){
 // Implementing a Refactored version of the insert method to be able to update the email address
 
 HashTable.prototype.insert = function(){
-	
+	if(){
+		
+	}
+	else{
+		
+	}
 }
 
 var myHT = new HashTable(30);
