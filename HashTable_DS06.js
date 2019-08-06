@@ -59,6 +59,9 @@ HashTable.prototype.get = function(key){
 	if(!this.buckets[index]) return null;
 	else{
 		var currentNode = this.buckets[index];
+		while(currentNode){
+			
+		}
 	}
 }
 
