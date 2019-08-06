@@ -31,7 +31,7 @@ HashTable.prototype.hash = function(key){
 // Implementing a Refactored version of the insert method to be able to update the email address
 
 
-HashTable.prototype.insert = function(){
+HashTable.prototype.insert = function(key,value){
 	var index = this.hash(key);
 	if(!this.buckets[index]){
 		this.buckets[index] = new HashNode(key,value);
