@@ -67,6 +67,21 @@ HashTable.prototype.get = function(key){    // finds singers and returns their e
 	}
 }
 
+// Implementing a retrieveAll() Method
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 var myHT = new HashTable(30);
 myHT.insert('Chuck Berry','chuckberry@gmail.com');
