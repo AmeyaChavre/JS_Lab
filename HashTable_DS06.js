@@ -57,6 +57,9 @@ HashTable.prototype.insert = function(key,value){
 HashTable.prototype.get = function(key){
 	var index = this.hash(key);
 	if(!this.buckets[index]) return null;
+	else{
+		
+	}
 }
 
 
