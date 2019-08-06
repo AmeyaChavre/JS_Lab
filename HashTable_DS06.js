@@ -92,7 +92,7 @@ console.log('Singer1 Email Address: ',myHT.get('Johnny Cash'));
 console.log('Singer1 Email Address: ',myHT.get('Jim Morrison'));
 console.log('Singer1 Email Address: ',myHT.get('John Lennon'));
 
-/*
+/* @Output:
 
 Singer1 Email Address:  chuckberry.1950@gmail.com
 Singer1 Email Address:  steviewonder.1960@gmail.com
