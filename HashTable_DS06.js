@@ -88,6 +88,6 @@ console.log('Singer1 Email Address: ',);
 console.log('Singer1 Email Address: ',);
 console.log('Singer1 Email Address: ',);
 console.log('Singer1 Email Address: ',);
-console.log();
+console.log('Singer1 Email Address: ',);
 console.log();
 console.log();
