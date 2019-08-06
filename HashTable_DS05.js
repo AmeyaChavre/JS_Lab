@@ -33,7 +33,7 @@ HashTable.prototype.hash = function(key){
 HashTable.prototype.insert = function(){
 	var index = this.hash(key);
 	if(!this.buckets[index]){
-		this.buckets[index] = new HashNode(key);
+		this.buckets[index] = new HashNode(key,value);
 	}
 	else{
 		
