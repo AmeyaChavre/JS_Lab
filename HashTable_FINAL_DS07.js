@@ -73,8 +73,8 @@ HashTable.prototype.retrieveAll(){
 	var allNodes = [];
 	for (var i = 0; i < this.numBuckets; ++i){
 		var currentNode = this.buckets[i];
-		while(){
-			
+		while(currentNode){
+			currentNode = currentNode.next;
 		}
 	}
 		
