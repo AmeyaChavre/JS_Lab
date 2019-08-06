@@ -60,6 +60,7 @@ myHT.insert('Freddy Mercury','freddymercury@gmail.com');
 
 // Updating Emails
 
+myHT.insert('Chuck Berry','chuckberry@gmail.com');
 
 
 
