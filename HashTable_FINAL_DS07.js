@@ -83,19 +83,6 @@ HashTable.prototype.retrieveAll = function(){
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 var myHT = new HashTable(30);
 myHT.insert('Chuck Berry','chuckberry@gmail.com');
 myHT.insert('Stevie Wonder','steviewonder@gmail.com');
@@ -108,7 +95,8 @@ myHT.insert('Chuck Berry','chuckberry.1950@gmail.com');
 myHT.insert('Stevie Wonder','steviewonder.1960@gmail.com');
 myHT.insert('Elvis Presly','elvispresly.1970@gmail.com');
 myHT.insert('Freddy Mercury','freddymercury.1980@gmail.com');
-myHT.insert('Tom Waits'));
-myHT.insert('Johnny Cash'));
-myHT.insert('Jim Morrison'));
-myHT.insert('John Lennon'));
+myHT.insert('Tom Waits','tomwaits@gmail.com'));
+myHT.insert('Johnny Cash','johnnycash@gmail.com'));
+myHT.insert('Jim Morrison','jimmorrison@gmail.com'));
+myHT.insert('John Lennon','johnlennon@gmail.com'));
+
