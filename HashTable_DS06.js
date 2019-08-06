@@ -80,6 +80,7 @@ HashTable.prototype.get = function(key){    // finds singers and returns their e
 
 
 
+
 var myHT = new HashTable(30);
 myHT.insert('Chuck Berry','chuckberry@gmail.com');
 myHT.insert('Stevie Wonder','steviewonder@gmail.com');
