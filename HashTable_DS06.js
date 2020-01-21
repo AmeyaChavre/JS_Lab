@@ -81,6 +81,7 @@ myHT.insert('Stevie Wonder','steviewonder.1960@gmail.com');
 myHT.insert('Elvis Presly','elvispresly.1970@gmail.com');
 myHT.insert('Freddy Mercury','freddymercury.1980@gmail.com');
 
+
 // Testing Get Method 
 
 console.log('Singer1 Email Address: ',myHT.get('Chuck Berry'));
